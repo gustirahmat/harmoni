@@ -1,7 +1,8 @@
 /node_modules
-/public/hot
+/public/img
 /public/page-cache
 /public/storage
+/public/video
 /storage/*.key
 /vendor
 /.idea
