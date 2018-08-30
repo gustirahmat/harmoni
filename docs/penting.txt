@@ -1,0 +1,34 @@
+,]qN&WWwzh_3
+halo@harmonikarimunjawa.com
+
+ON6fBcB9@harmonikarimunjawa.com
+0,[_XP*tU&VV
+103.15.226.60:21
+
+8 27
+
+CREATE TEMPORARY TABLE tmp SELECT * FROM `customerSales` WHERE `user_id` = 8;
+
+UPDATE tmp SET `user_id` = 27 WHERE `user_id` = 8;
+
+INSERT INTO customerSales SELECT * FROM tmp WHERE `user_id` = 8;
+
+CREATE TEMPORARY TABLE tmp SELECT `customer_id`,`user_id`,`created_at`,`updated_at` FROM `customerSales` WHERE `user_id` = 8;
+
+UPDATE tmp SET `user_id` = 27 WHERE `user_id` = 8;
+
+INSERT INTO customerSales(`customer_id`, `user_id`, `created_at`, `updated_at`) SELECT * FROM tmp WHERE `user_id` = 27;
+
+CREATE TEMPORARY TABLE tmp SELECT `suppliergrade_id`,`customer_id`,`user_id`,`sales_id`,`remarks_submittedDate`,`remarks_submittedDate_string`,`remarks_details`,`created_at`,`updated_at` FROM `customerRemark` WHERE `user_id` = 8;
+
+UPDATE tmp SET `user_id` = 27 WHERE `user_id` = 8;
+
+INSERT INTO `customerRemark`(`suppliergrade_id`,`customer_id`,`user_id`,`sales_id`,`remarks_submittedDate`,`remarks_submittedDate_string`,`remarks_details`,`created_at`,`updated_at`) SELECT * FROM tmp WHERE `user_id` = 27;
+
+CREATE TEMPORARY TABLE tmp SELECT `suppliergrade_id`,`customer_id`,`user_id`,`sales_id`,`remarks_submittedDate`,`remarks_submittedDate_string`,`remarks_details`,`created_at`,`updated_at` FROM `customerRemark` WHERE `sales_id` = 8;
+
+UPDATE tmp SET `sales_id` = 27 WHERE `sales_id` = 8;
+
+INSERT INTO `customerRemark`(`suppliergrade_id`,`customer_id`,`user_id`,`sales_id`,`remarks_submittedDate`,`remarks_submittedDate_string`,`remarks_details`,`created_at`,`updated_at`) SELECT * FROM tmp WHERE `sales_id` = 27;
+
+SELECT * from customerRemark WHERE user_id = 27 and sales_id = 8
