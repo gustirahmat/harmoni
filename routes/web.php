@@ -11,72 +11,46 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Auth::routes();
+
+Route::namespace('Admin')->group(function () {
+	// Controllers Within The "App\Http\Controllers\Admin" Namespace
+	Route::get('home', 'AdministratorController@index')->name('admin');
+
+	Route::prefix('admin')->group(function () {
+		Route::get('/', 'AdministratorController@index')->name('admin');
+		Route::resource('table', 'TableGeneratorController');
+		Route::resource('boat-schedules', 'BoatScheduleController')->names([
+			'create' => 'boat-schedules.create'
+		]);;
+		Route::resource('open-trip-schedules', 'OpenTripSchedulesController');
+		Route::resource('testimony', 'TestimonyController');
+		Route::resource('tour-package', 'TourPackageController');
+	});
+});
+
+Route::namespace('Customer')->group(function () {
+	// Controllers Within The "App\Http\Controllers\Customer" Namespace
+	Route::get('/', 'CustomerController@CustomerHome')->name('home');
+	Route::get('galeri-foto-video-harmoni-karimunjawa', 'CustomerController@CustomerGallery')->name('gallery');
+	Route::get('jadwal-kapal-karimunjawa', 'CustomerController@CustomerBoatSchedule')->name('boat-schedule');
+	Route::get('syarat-ketentuan-harmoni-karimunjawa', 'CustomerController@CustomerTnC')->name('tnc');
+	Route::get('tentang-harmoni-karimunjawa', 'CustomerController@CustomerAbout')->name('about');
+	Route::get('testimoni-harmoni-karimunjawa', 'CustomerController@CustomerTestimony')->name('testimony');
+
+	Route::prefix('paket-wisata-karimunjawa')->group(function () {
+		Route::get('/', 'TourPackageController@index');
+		Route::get('karimunjawa-2-hari-1-malam-express-bahari-jepara', 'TourPackageController@Karjaw2H1MEBJ');
+		Route::get('karimunjawa-2-hari-1-malam-ferry', 'TourPackageController@Karjaw2H1MFJ');
+		Route::get('karimunjawa-2-hari-2-malam-pelni', 'TourPackageController@Karjaw2H2MPS');
+		Route::get('karimunjawa-3-hari-2-malam-express-bahari-jepara', 'TourPackageController@Karjaw3H2MEBJ');
+		Route::get('karimunjawa-3-hari-2-malam-express-bahari-semarang', 'TourPackageController@Karjaw3H2MEBS');
+		Route::get('karimunjawa-3-hari-2-malam-kmc-kartini-semarang', 'TourPackageController@Karjaw3H2MKS');
+		Route::get('karimunjawa-3-hari-2-malam-ferry', 'TourPackageController@Karjaw3H2MFJ');
+		Route::get('karimunjawa-4-hari-3-malam-express-bahari-jepara', 'TourPackageController@Karjaw4H3MEBJ');
+		Route::get('karimunjawa-4-hari-3-malam-ferry', 'TourPackageController@Karjaw4H3MFJ');
+		Route::get('open-trip-harmoni-karimunjawa', 'TourPackageController@KarjawOT')->name('open-trip');
+	});
 });
 
 Route::get('/sitemap.xml', 'SitemapController@index');
-
-Route::get('/tentang-harmoni-karimunjawa', function () {
-    return view('about');
-});
-
-Route::get('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-express-bahari-jepara', function () {
-    return view('paket-wisata.2h1m-express-jepara');
-});
-
-Route::get('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-ferry', function () {
-    return view('paket-wisata.2h1m-ferry');
-});
-
-Route::get('/paket-wisata-karimunjawa/karimunjawa-2-hari-2-malam-pelni', function () {
-    return view('paket-wisata.2h2m-pelni');
-});
-
-Route::get('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-jepara', function () {
-    return view('paket-wisata.3h2m-express-jepara');
-});
-
-Route::get('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-semarang', function () {
-    return view('paket-wisata.3h2m-express-semarang');
-});
-
-Route::get('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-kmc-kartini-semarang', function () {
-    return view('paket-wisata.3h2m-kmc-kartini-semarang');
-});
-
-Route::get('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-ferry', function () {
-    return view('paket-wisata.3h2m-ferry');
-});
-
-Route::get('/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-express-bahari-jepara', function () {
-    return view('paket-wisata.4h3m-express-jepara');
-});
-
-Route::get('/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-ferry', function () {
-    return view('paket-wisata.4h3m-ferry');
-});
-
-Route::get('/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa', function () {
-    return view('paket-wisata.open-trip');
-});
-
-Route::get('/galeri-foto-video-harmoni-karimunjawa', function () {
-    return view('gallery');
-});
-
-Route::get('/jadwal-kapal-karimunjawa', function () {
-    return view('boat-schedule');
-});
-
-Route::get('/testimoni-harmoni-karimunjawa', function () {
-    return view('testimony');
-});
-
-Auth::routes();
-
-Route::get('/admin', 'HomeController@index')->name('admin');
-Route::resource('/admin/table', 'Admin\\TableGeneratorController');
-Route::resource('admin/boat-schedules', 'Admin\\BoatScheduleController');
-Route::resource('admin/open-trip-schedules', 'Admin\\OpenTripSchedulesController');
-Route::resource('admin/testimony', 'Admin\\TestimonyController');

@@ -7,52 +7,6 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="title m-b-md text-center">
-                            Jadwal Open Trip {{ date('Y') }}
-                            <span class="sr-only">Jadwal Open Trip Harmoni Karimunjawa {{ date('Y') }}</span>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table table-striped table-borderless table-hover font-weight-bold">
-                                <thead>
-                                <tr>
-                                    <th>No</th>
-                                    <th>Trip</th>
-                                    <th>Tanggal Trip</th>
-                                    <th>Kuota Peserta</th>
-                                </tr>
-                                </thead>
-                                @inject('opentrip','harmoniKarimunJawa\OpenTripSchedule')
-                                <tbody>
-                                @foreach($opentrip->all() as $item)
-                                    @if(!($item->count() > 1))
-                                        <tr>
-                                            <td>{{ $loop->iteration }}</td>
-                                            <td>{{ $item->nama_trip }}</td>
-                                            <td>{{ $item->kuota_trip }} orang</td>
-                                            <td>{{ $item->tanggal_trip }}</td>
-                                        </tr>
-                                    @else
-                                        @guest
-                                            <tr>
-                                                <td colspan="4">Tidak ada jadwal Open Trip tersedia.</td>
-                                            </tr>
-                                        @else
-                                            <tr>
-                                                <td colspan="4">
-                                                    <a href="{{ url('/admin/open-trip-schedules/create') }}" title="Tambah jadwal Open Trip Harmoni">Klik disini untuk menambahkan jadwal open trip terbaru.</a>
-                                                </td>
-                                            </tr>
-                                        @endguest
-                                    @endif
-                                @endforeach
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <hr class="shadow-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="title m-b-md text-center">
                             Harga Paket Open Trip
                         </div>
                         <div class="table-responsive">
@@ -117,17 +71,17 @@
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>JAVA P - Deluxe</td>
-                                        <td>Rp. 1.200.000,-</td>
-                                        <td>Rp. 1.250.000,-</td>
-                                        <td>Rp. 1.700.000,-</td>
-                                        <td>Rp. 2.000.000,-</td>
+                                        <td>Rp. 1.300.000,-</td>
+                                        <td>Rp. 1.350.000,-</td>
+                                        <td>Rp. 1.900.000,-</td>
+                                        <td>Rp. 2.300.000,-</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>JAVA P - Executive</td>
-                                        <td>Rp. 1.250.000,-</td>
-                                        <td>Rp. 1.300.000,-</td>
-                                        <td>Rp. 1.850.000,-</td>
-                                        <td>Rp. 2.200.000,-</td>
+                                        <td>Rp. 1.350.000,-</td>
+                                        <td>Rp. 1.400.000,-</td>
+                                        <td>Rp. 2.050.000,-</td>
+                                        <td>Rp. 2.500.000,-</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="9">Hotel Standard / Melati</td>
@@ -347,8 +301,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h4>Bagikan Halaman:</h4>
-                        <div class="addthis_inline_share_toolbox"></div>
-                        <div class="sharethis-inline-share-buttons"></div>
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-7c14c740-47e6-4813-86df-c8e357b82c25"></div>
                         <hr>
                         <h4>Tulis Komentar:</h4>
                         <div class="fb-comments" data-href="https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa" data-width="100%" data-numposts="10"></div>

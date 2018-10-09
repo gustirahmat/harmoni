@@ -59,7 +59,7 @@
                     Keindahan alam <b>Kepulauan Karimunjawa</b> sudah di kenal dunia sejak era tahun 80an. Akses untuk menuju <b>Kepulauan Karimunjawa</b> bisa dilakukan dari Jepara dengan penyeberangan kapal yang hampir ada setiap hari atau Semarang pada waktu - waktu tertentu, tetapi perlu diketahui untuk berkunjung ke pulau ini tidak mudah dilakukan ketika akhir pekan dan musim libur sekolah atau nasional mengingat animo wisatawan yang berminat datang ke <b>Kepulauan Karimunjawa</b> saat ini begitu besar.
                     Dari pertimbangan inilah <span> <img src="{{ asset('img/logo.png') }}" id="Logo Harmoni Karimunjawa" alt="Logo Harmoni Karimunjawa"> </span> bertekad menjembatani Anda agar lebih mudah dan menyenangkan ketika mengunjungi <b>Taman Nasional Karimunjawa</b>.
                     <br>
-                    Segera pilih <a href="{{ url('/paket-wisata') }}" style="font-size: larger; text-decoration: underline"><b>Paket Wisata</b></a> dari kami sesuai dengan yang Anda butuhkan.
+                    Segera pilih <a href="#paketWisata" style="font-size: larger; text-decoration: underline"><b>Paket Wisata</b></a> dari kami sesuai dengan yang Anda butuhkan.
                 </div>
             </div>
         </div>
@@ -78,11 +78,11 @@
             </div>
         </div>
 
-        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center">
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center" id="paketWisata">
             <div class="bg-white border border-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 py-3">
                     <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-express-bahari-jepara') }}" style="text-decoration: none">
-                        <h1 class="display-5">2H1M via Express Jepara</sup><span class="sr-only">Karimunjawa 2 Hari 1 Malam Express Bahari Jepara</span></h1>
+                        <h1 class="display-5">2H1M via Express Jepara <span class="sr-only">Karimunjawa 2 Hari 1 Malam Express Bahari Jepara</span></h1>
                         <p class="lead">Mulai dari Rp. 760.000,- ++</p>
                         <hr class="shadow-sm">
                     </a>
@@ -92,7 +92,7 @@
             <div class="bg-secondary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 p-3">
                     <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-ferry') }}" class="text-white" style="text-decoration: none">
-                        <h1 class="display-5">2H1M via Ferry Jepara <sup><span class="badge badge-light">Termurah</span><span class="sr-only">Karimunjawa 2 Hari 1 Malam Ferry</span></h1>
+                        <h1 class="display-5">2H1M via Ferry Jepara <sup><span class="badge badge-light">Termurah</span></sup><span class="sr-only">Karimunjawa 2 Hari 1 Malam Ferry</span></h1>
                         <p class="lead">Mulai dari Rp. 600.000,- ++</p>
                         <hr class="shadow-sm">
                     </a>
@@ -192,49 +192,8 @@
                 {{--<div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>--}}
             </div>
         </div>
-
-        <div class="container-fluid py-5 text-center" id="jadwalOpenTripHarmoniKarimunjawa">
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <div class="title m-b-md text-center">
-                        Jadwal Open Trip {{ date('Y') }}
-                        <span class="sr-only">Jadwal Open Trip Harmoni Karimunjawa {{ date('Y') }}</span>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="table table-striped table-borderless table-hover font-weight-bold">
-                            <thead>
-                            <tr>
-                                <th>No</th>
-                                <th>Trip</th>
-                                <th>Kuota</th>
-                                <th>Tanggal Trip</th>
-                                <th>Detail</th>
-                            </tr>
-                            </thead>
-                            @inject('opentrip','harmoniKarimunJawa\OpenTripSchedule')
-                            <tbody>
-                            @foreach($opentrip->all() as $item)
-                                @if(!($item->count() > 1))
-                                    <tr>
-                                        <td>{{ $loop->iteration }}</td>
-                                        <td>{{ $item->nama_trip }}</td>
-                                        <td>{{ $item->kuota_trip }} orang</td>
-                                        <td>{{ $item->tanggal_trip }}</td>
-                                        <td>
-                                            <a class="btn btn-primary" href="{{ url('/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa') }}" role="button">Klik disini</a>
-                                        </td>
-                                    </tr>
-                                @else
-                                    <tr>
-                                        <td colspan="5">Tidak ada jadwal Open Trip tersedia.</td>
-                                    </tr>
-                                @endif
-                            @endforeach
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-de22a92a-0b80-4876-ba1b-7471b8c33858"></div>
     </div>
 @endsection

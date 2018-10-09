@@ -291,31 +291,20 @@
                                 </tfoot>
                             </table>
                         </div>
-                    </div><!-- Modal -->
+                    </div>
                 </div>
-                <div class="modal fade" id="modalFotoKapal" tabindex="-1" role="dialog" aria-labelledby="modalLabelFotoKapal" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <img src="" id="imgKapal" alt="Foto kapal ke Karimunjawa" style="width:100%">
-                        </div>
+                <hr class="shadow-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Bagikan Halaman:</h4>
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-7c14c740-47e6-4813-86df-c8e357b82c25"></div>
+                        <hr>
+                        <h4>Tulis Komentar:</h4>
+                        <div class="fb-comments" data-href="https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa" data-width="100%" data-numposts="10"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-@endsection
-
-@section('scripts')
-    <script type="application/javascript">
-        $(document).ready(function () {
-            // $('table tr td:first-child').each(function () {
-            //     $(this).css('text-align', 'center');
-            // });
-
-            $('#linkFotoKapal').on('click', function () {
-                var kapal = $(this).data('kapal');
-                $('#imgKapal').attr('src', kapal);
-            });
-        });
-    </script>
 @endsection

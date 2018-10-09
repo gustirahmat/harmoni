@@ -48,11 +48,11 @@
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>JAVA P - Deluxe</td>
-                                        <td>Rp. 1.200.000,-</td>
+                                        <td>Rp. 1.300.000,-</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>JAVA P - Executive</td>
-                                        <td>Rp. 1.250.000,-</td>
+                                        <td>Rp. 1.350.000,-</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="9">Hotel Standard / Melati</td>
@@ -148,6 +148,7 @@
                             <ul>
                                 <li>Harga yang tertera untuk 1 orang</li>
                                 <li>Pendaftaran peserta minimal untuk 2 orang</li>
+                                <li>Pendaftaran untuk 11 peserta ke atas bisa dilayani private trip</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>
                                 <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi</li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
@@ -334,8 +335,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h4>Bagikan Halaman:</h4>
-                        <div class="addthis_inline_share_toolbox"></div>
-                        <div class="sharethis-inline-share-buttons"></div>
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-7c14c740-47e6-4813-86df-c8e357b82c25"></div>
                         <hr>
                         <h4>Tulis Komentar:</h4>
                         <div class="fb-comments" data-href="https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa" data-width="100%" data-numposts="10"></div>

@@ -21,7 +21,7 @@
         <div id="app">
             <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
                 <div class="container">
-                    <a class="navbar-brand" href="{{ url('/admin') }}">
+                    <a class="navbar-brand" href="{{ route('admin') }}">
                         Harmoni Admin
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -34,7 +34,7 @@
                             @guest
                             @else
                             <li class="nav-item">
-                                <a href="{{ url('/admin') }}" class="nav-link"><i class="icon ion-ios-home"></i> Dashboard</a>
+                                <a href="{{ route('admin') }}" class="nav-link"><i class="icon ion-ios-home"></i> Dashboard</a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{ url('/admin/open-trip-schedules') }}" class="nav-link"><i class="fa fa-calendar"></i> Jadwal Open Trip</a>
@@ -109,7 +109,13 @@
             <script type="text/javascript">
                 $( document ).ready(function() {
                     // Navigation active
-                    $('ul.navbar-nav a[href="{{ "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" }}"]').closest('li').addClass('active');
+                    $("ul.navbar-nav a").filter(function(){
+                        return this.href == location.href.replace(/#.*/, "");
+                    }).closest('li').addClass("active");
+                    
+                    $("li.dropdown a").filter(function(){
+                        return this.href == location.href.replace(/#.*/, "");
+                    }).addClass("active");
                 });
             </script>
 
