@@ -183,13 +183,26 @@
             </div>
             <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 p-3">
-                    <a href="#jadwalOpenTripHarmoniKarimunjawa" style="text-decoration: none">
+                    <a href="{{ route('open-trip') }}" style="text-decoration: none">
                         <h1 class="display-5">Open Trip <span class="sr-only">Open Trip Harmoni Karimunjawa</span></h1>
                         <p class="lead">Mulai dari Rp. 600.000,- ++</p>
                         <hr class="shadow-sm">
                     </a>
                 </div>
                 {{--<div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>--}}
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center">
+            <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm" style="background-color: hotpink">
+                <div class="my-3 py-3">
+                    <a href="{{ route('honeymoon-trip') }}" style="text-decoration: none; color: antiquewhite;">
+                        <h1 class="display-5">Honeymoon Trip <span class="sr-only">Honeymoon Trip Harmoni Karimunjawa</span></h1>
+                        <p class="lead">Mulai dari Rp. 1.760.000,- ++</p>
+                        <hr class="shadow-sm">
+                    </a>
+                </div>
+                {{--<div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>--}}
             </div>
         </div>
         

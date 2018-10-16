@@ -57,6 +57,11 @@ class TourPackageController extends Controller
 		return view('paket-wisata.open-trip');
 	}
 
+	public function KarjawHoneymoon()
+	{
+		return view('paket-wisata.honeymoon-trip');
+	}
+
     /**
      * Display a listing of the resource.
      *

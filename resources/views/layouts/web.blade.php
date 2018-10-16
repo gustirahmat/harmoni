@@ -41,6 +41,11 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
+        .nav-tabs .nav-itin.active {
+            color: antiquewhite;
+            background-color: hotpink;
+            border-color: #dee2e6 #dee2e6 antiquewhite;
+        }
         #navbar {
             transition: top 0.5s;
             border-bottom: thin inset dodgerblue;
@@ -225,6 +230,9 @@
                     </div>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ route('honeymoon-trip') }}">Honeymoon Trip</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ route('open-trip') }}">Open Trip</a>
                 </li>
                 <li class="nav-item">
@@ -232,9 +240,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('gallery') }}">Galeri</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('tnc') }}">Syarat & Ketentuan</a>

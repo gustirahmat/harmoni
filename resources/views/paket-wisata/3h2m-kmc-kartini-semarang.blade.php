@@ -233,7 +233,7 @@
                                         <td colspan="3" class="bg-primary"></td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="12">Kedua</td>
+                                        <td rowspan="11">Kedua</td>
                                         <td rowspan="3">07:30 - 08:30</td>
                                         <td>Sarapan (disediakan)</td>
                                     </tr>
@@ -244,16 +244,13 @@
                                         <td>Menuju Pelabuhan Wisata</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="7">08:30 - 18:00</td>
+                                        <td rowspan="6">08:30 - 18:00</td>
                                         <td class="bg-primary text-white font-italic">
                                             Wisata laut menggunakan perahu menuju
                                             <div class="bounce float-right">
                                                 <b style="font-size: larger">&downarrow;&downarrow;</b>
                                             </div>
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Penangkaran hiu (opsional)</td>
                                     </tr>
                                     <tr>
                                         <td>Snorkeling pertama di spot Maer</td>
@@ -350,10 +347,8 @@
                             <div class="col-12 col-md">
                                 <h4>Exclude:</h4>
                                 <ul>
-                                    <li>HTM Kolam Hiu (Rp. 40.000,-)</li>
                                     <li>HTM Menjangan Resort (Rp. 20.000,-)</li>
                                     <li>HTM Penangkaran Penyu (Rp. 5.000,-)</li>
-                                    <li>&uparrow;&uparrow;&uparrow; jika rute diambil operator</li>
                                 </ul>
                             </div>
                         </div>
@@ -373,8 +368,4 @@
             </div>
         </div>
     </div>
-@endsection
-
-@section('scripts')
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b74dfc899d787f5"></script>
 @endsection

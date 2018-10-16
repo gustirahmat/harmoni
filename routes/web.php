@@ -50,6 +50,7 @@ Route::namespace('Customer')->group(function () {
 		Route::get('karimunjawa-4-hari-3-malam-express-bahari-jepara', 'TourPackageController@Karjaw4H3MEBJ');
 		Route::get('karimunjawa-4-hari-3-malam-ferry', 'TourPackageController@Karjaw4H3MFJ');
 		Route::get('open-trip-harmoni-karimunjawa', 'TourPackageController@KarjawOT')->name('open-trip');
+		Route::get('honeymoon-trip-harmoni-karimunjawa', 'TourPackageController@KarjawHoneymoon')->name('honeymoon-trip');
 	});
 });
 
