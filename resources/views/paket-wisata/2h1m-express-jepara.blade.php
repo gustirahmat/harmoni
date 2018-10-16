@@ -174,7 +174,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td rowspan="16">Pertama</td>
+                                        <td rowspan="15">Pertama</td>
                                         <td rowspan="3">08:00 - 09:00</td>
                                         <td>Pembagian tiket kapal</td>
                                     </tr>
@@ -205,16 +205,13 @@
                                         <td>Menuju Pelabuhan Wisata</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="5">13:30 - 18:00</td>
+                                        <td rowspan="4">13:30 - 18:00</td>
                                         <td class="bg-primary text-white font-italic">
                                             Wisata laut menggunakan perahu menuju
                                             <div class="bounce float-right">
                                                 <b style="font-size: larger">&downarrow;&downarrow;</b>
                                             </div>
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Penangkaran hiu (opsional)</td>
                                     </tr>
                                     <tr>
                                         <td>Snorkeling pertama di spot Maer</td>
@@ -315,10 +312,8 @@
                             <div class="col-12 col-md">
                                 <h4>Exclude:</h4>
                                 <ul>
-                                    <li>HTM Kolam Hiu (Rp. 40.000,-)</li>
                                     <li>HTM Menjangan Resort (Rp. 20.000,-)</li>
                                     <li>HTM Penangkaran Penyu (Rp. 5.000,-)</li>
-                                    <li>&uparrow;&uparrow;&uparrow; jika rute diambil operator</li>
                                 </ul>
                             </div>
                             <div class="col-12 col-md">
@@ -333,19 +328,11 @@
                 <hr class="shadow-sm">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Bagikan Halaman:</h4>
-                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                        <div class="elfsight-app-7c14c740-47e6-4813-86df-c8e357b82c25"></div>
-                        <hr>
                         <h4>Tulis Komentar:</h4>
-                        <div class="fb-comments" data-href="https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa" data-width="100%" data-numposts="10"></div>
+                        <div class="fb-comments" data-href="{{ route('2h1m-ebj') }}" data-width="100%" data-numposts="10"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-@endsection
-
-@section('scripts')
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b74dfc899d787f5"></script>
 @endsection

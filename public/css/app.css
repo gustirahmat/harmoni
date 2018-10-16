@@ -10483,8 +10483,8 @@ a.text-dark:focus {
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url(/fonts/vendor/font-awesome/fontawesome-webfont.eot?674f50d287a8c48dc19ba404d20fe713);
-  src: url(/fonts/vendor/font-awesome/fontawesome-webfont.eot?674f50d287a8c48dc19ba404d20fe713) format("embedded-opentype"), url(/fonts/vendor/font-awesome/fontawesome-webfont.woff2?af7ae505a9eed503f8b8e6982036873e) format("woff2"), url(/fonts/vendor/font-awesome/fontawesome-webfont.woff?fee66e712a8a08eef5805a46892932ad) format("woff"), url(/fonts/vendor/font-awesome/fontawesome-webfont.ttf?b06871f281fee6b241d60582ae9369b9) format("truetype"), url(/fonts/vendor/font-awesome/fontawesome-webfont.svg?912ec66d7572ff821749319396470bde) format("svg");
+  src: url(/public/fonts/vendor/font-awesome/fontawesome-webfont.eot?674f50d287a8c48dc19ba404d20fe713);
+  src: url(/public/fonts/vendor/font-awesome/fontawesome-webfont.eot?674f50d287a8c48dc19ba404d20fe713) format("embedded-opentype"), url(/public/fonts/vendor/font-awesome/fontawesome-webfont.woff2?af7ae505a9eed503f8b8e6982036873e) format("woff2"), url(/public/fonts/vendor/font-awesome/fontawesome-webfont.woff?fee66e712a8a08eef5805a46892932ad) format("woff"), url(/public/fonts/vendor/font-awesome/fontawesome-webfont.ttf?b06871f281fee6b241d60582ae9369b9) format("truetype"), url(/public/fonts/vendor/font-awesome/fontawesome-webfont.svg?912ec66d7572ff821749319396470bde) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -13540,8 +13540,8 @@ a.text-dark:focus {
 
 @font-face {
   font-family: "Ionicons";
-  src: url(/fonts/vendor/ionicons/dist/ionicons.eot?3c1e04901e63bef6c26cbe06c067ca2c);
-  src: url(/fonts/vendor/ionicons/dist/ionicons.eot?3c1e04901e63bef6c26cbe06c067ca2c) format("embedded-opentype"), url(/fonts/vendor/ionicons/dist/ionicons.woff2?43d5c718339efeb1177aff722d72669d) format("woff2"), url(/fonts/vendor/ionicons/dist/ionicons.woff?a21b9e1aad96623ef91bca7ecea7b169) format("woff"), url(/fonts/vendor/ionicons/dist/ionicons.ttf?b2e0fc821c6886fb3940f85a3320003e) format("truetype"), url(/fonts/vendor/ionicons/dist/ionicons.svg?91433571f154776a1d46c2a287de05d7) format("svg");
+  src: url(/public/fonts/vendor/ionicons/dist/ionicons.eot?3c1e04901e63bef6c26cbe06c067ca2c);
+  src: url(/public/fonts/vendor/ionicons/dist/ionicons.eot?3c1e04901e63bef6c26cbe06c067ca2c) format("embedded-opentype"), url(/public/fonts/vendor/ionicons/dist/ionicons.woff2?43d5c718339efeb1177aff722d72669d) format("woff2"), url(/public/fonts/vendor/ionicons/dist/ionicons.woff?a21b9e1aad96623ef91bca7ecea7b169) format("woff"), url(/public/fonts/vendor/ionicons/dist/ionicons.ttf?b2e0fc821c6886fb3940f85a3320003e) format("truetype"), url(/public/fonts/vendor/ionicons/dist/ionicons.svg?91433571f154776a1d46c2a287de05d7) format("svg");
   font-weight: normal;
   font-style: normal;
 }

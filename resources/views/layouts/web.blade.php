@@ -40,6 +40,15 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @if(Request::url() == route('honeymoon-trip'))
+        <style>
+            .nav-tabs .nav-itin.active {
+                color: antiquewhite;
+                background-color: hotpink;
+                border-color: #dee2e6 #dee2e6 antiquewhite;
+            }
+        </style>
+    @endif
     <style>
         #navbar {
             transition: top 0.5s;
@@ -213,16 +222,20 @@
                         Paket Wisata
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarPaketWisata">
-                        <a class="dropdown-item" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-express-bahari-jepara') }}"> Karimunjawa 2H1M via Express Jepara</a>
-                        <a class="dropdown-item" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-ferry') }}"> Karimunjawa 2H1M via Ferry Jepara <sup><span class="badge badge-secondary">Termurah</span></sup></a>
-                        <a class="dropdown-item" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-2-malam-pelni') }}"> Karimunjawa 2H2M via Pelni Semarang</a>
-                        <a class="dropdown-item" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-jepara') }}"> Karimunjawa 3H2M via Express Jepara <sup><span class="badge badge-primary">Terbaik</span></sup></a>
-                        <a class="dropdown-item" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-semarang') }}"> Karimunjawa 3H2M via Express Semarang <sup><span class="badge badge-success">Terbaru</span></sup></a>
-                        <a class="dropdown-item" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-kmc-kartini-semarang') }}"> Karimunjawa 3H2M via KMC Kartini Semarang</a>
-                        <a class="dropdown-item" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-ferry') }}"> Karimunjawa 3H2M via Ferry Jepara</a>
-                        <a class="dropdown-item" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-express-bahari-jepara') }}"> Karimunjawa 4H3M via Express Jepara</a>
-                        <a class="dropdown-item" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-ferry') }}"> Karimunjawa 4H3M via Ferry Jepara</a>
+                        <a class="dropdown-item" href="{{ route('by-plane-trip') }}"> Karimunjawa via Bandara Semarang <sup><span class="badge badge-success">Terbaru</span></sup></a>
+                        <a class="dropdown-item" href="{{ route('2h1m-ebj') }}"> Karimunjawa 2H1M via Express Jepara</a>
+                        <a class="dropdown-item" href="{{ route('2h1m-ferry') }}"> Karimunjawa 2H1M via Ferry Jepara <sup><span class="badge badge-secondary">Termurah</span></sup></a>
+                        <a class="dropdown-item" href="{{ route('2h2m-pelni') }}"> Karimunjawa 2H2M via Pelni Semarang</a>
+                        <a class="dropdown-item" href="{{ route('3h2m-ebj') }}"> Karimunjawa 3H2M via Express Jepara <sup><span class="badge badge-primary">Terbaik</span></sup></a>
+                        <a class="dropdown-item" href="{{ route('3h2m-ebs') }}"> Karimunjawa 3H2M via Express Semarang</a>
+                        <a class="dropdown-item" href="{{ route('3h2m-kmc') }}"> Karimunjawa 3H2M via KMC Kartini Semarang</a>
+                        <a class="dropdown-item" href="{{ route('3h2m-ferry') }}"> Karimunjawa 3H2M via Ferry Jepara</a>
+                        <a class="dropdown-item" href="{{ route('4h3m-ebj') }}"> Karimunjawa 4H3M via Express Jepara</a>
+                        <a class="dropdown-item" href="{{ route('4h3m-ferry') }}"> Karimunjawa 4H3M via Ferry Jepara</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('honeymoon-trip') }}">Honeymoon Trip</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('open-trip') }}">Open Trip</a>
@@ -232,9 +245,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('gallery') }}">Galeri</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('tnc') }}">Syarat & Ketentuan</a>
@@ -258,15 +268,15 @@
             <div class="col-12 col-md">
                 <h4>Paket Wisata Karimunjawa</h4>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-express-bahari-jepara') }}"> &blacktriangleright; 2H1M via Express Jepara <span class="sr-only">Paket Karimunjawa 2 Hari 1 Malam Express Bahari Jepara</span></a></li>
-                    <li><a class="text-muted" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-ferry') }}"> &blacktriangleright; 2H1M via Ferry Jepara <span class="sr-only">Paket Karimunjawa 2 Hari 1 Malam Ferry Jepara</span></a></li>
-                    <li><a class="text-muted" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-2-malam-pelni') }}"> &blacktriangleright; 2H2M via Pelni Semarang <span class="sr-only">Paket Karimunjawa 2 Hari 2 Malam Pelni Semarang</span></a></li>
-                    <li><a class="text-muted" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-jepara') }}"> &blacktriangleright; 3H2M via Express Jepara <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam Express Bahari Jepara</span></a></li>
-                    <li><a class="text-muted" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-semarang') }}"> &blacktriangleright; 3H2M via Express Semarang <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam Express Bahari Semarang</span></a></li>
-                    <li><a class="text-muted" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-kmc-kartini-semarang') }}"> &blacktriangleright; 3H2M via KMC Kartini Semarang <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam KMC Kartini Semarang</span></a></li>
-                    <li><a class="text-muted" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-ferry') }}"> &blacktriangleright; 3H2M via Ferry Jepara <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam Ferry Jepara</span></a></li>
-                    <li><a class="text-muted" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-express-bahari-jepara') }}"> &blacktriangleright; 4H3M via Express Jepara <span class="sr-only">Paket Karimunjawa 4 Hari 3 Malam Express Bahari Jepara</span></a></li>
-                    <li><a class="text-muted" href="{{ url('/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-ferry') }}"> &blacktriangleright; 4H3M via Ferry Jepara <span class="sr-only">Paket Karimunjawa 4 Hari 3 Malam Ferry Jepara</span></a></li>
+                    <li><a class="text-muted" href="{{ route('2h1m-ebj') }}"> &blacktriangleright; 2H1M via Express Jepara <span class="sr-only">Paket Karimunjawa 2 Hari 1 Malam Express Bahari Jepara</span></a></li>
+                    <li><a class="text-muted" href="{{ route('2h1m-ferry') }}"> &blacktriangleright; 2H1M via Ferry Jepara <span class="sr-only">Paket Karimunjawa 2 Hari 1 Malam Ferry Jepara</span></a></li>
+                    <li><a class="text-muted" href="{{ route('2h2m-pelni') }}"> &blacktriangleright; 2H2M via Pelni Semarang <span class="sr-only">Paket Karimunjawa 2 Hari 2 Malam Pelni Semarang</span></a></li>
+                    <li><a class="text-muted" href="{{ route('3h2m-ebj') }}"> &blacktriangleright; 3H2M via Express Jepara <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam Express Bahari Jepara</span></a></li>
+                    <li><a class="text-muted" href="{{ route('3h2m-ebs') }}"> &blacktriangleright; 3H2M via Express Semarang <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam Express Bahari Semarang</span></a></li>
+                    <li><a class="text-muted" href="{{ route('3h2m-kmc') }}"> &blacktriangleright; 3H2M via KMC Kartini Semarang <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam KMC Kartini Semarang</span></a></li>
+                    <li><a class="text-muted" href="{{ route('3h2m-ferry') }}"> &blacktriangleright; 3H2M via Ferry Jepara <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam Ferry Jepara</span></a></li>
+                    <li><a class="text-muted" href="{{ route('4h3m-ebj') }}"> &blacktriangleright; 4H3M via Express Jepara <span class="sr-only">Paket Karimunjawa 4 Hari 3 Malam Express Bahari Jepara</span></a></li>
+                    <li><a class="text-muted" href="{{ route('4h3m-ferry') }}"> &blacktriangleright; 4H3M via Ferry Jepara <span class="sr-only">Paket Karimunjawa 4 Hari 3 Malam Ferry Jepara</span></a></li>
                 </ul>
             </div>
             <div class="col-12 col-md">

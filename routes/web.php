@@ -22,7 +22,7 @@ Route::namespace('Admin')->group(function () {
 		Route::resource('table', 'TableGeneratorController');
 		Route::resource('boat-schedules', 'BoatScheduleController')->names([
 			'create' => 'boat-schedules.create'
-		]);;
+		]);
 		Route::resource('open-trip-schedules', 'OpenTripSchedulesController');
 		Route::resource('testimony', 'TestimonyController');
 		Route::resource('tour-package', 'TourPackageController');
@@ -39,17 +39,19 @@ Route::namespace('Customer')->group(function () {
 	Route::get('testimoni-harmoni-karimunjawa', 'CustomerController@CustomerTestimony')->name('testimony');
 
 	Route::prefix('paket-wisata-karimunjawa')->group(function () {
-		Route::get('/', 'TourPackageController@index');
-		Route::get('karimunjawa-2-hari-1-malam-express-bahari-jepara', 'TourPackageController@Karjaw2H1MEBJ');
-		Route::get('karimunjawa-2-hari-1-malam-ferry', 'TourPackageController@Karjaw2H1MFJ');
-		Route::get('karimunjawa-2-hari-2-malam-pelni', 'TourPackageController@Karjaw2H2MPS');
-		Route::get('karimunjawa-3-hari-2-malam-express-bahari-jepara', 'TourPackageController@Karjaw3H2MEBJ');
-		Route::get('karimunjawa-3-hari-2-malam-express-bahari-semarang', 'TourPackageController@Karjaw3H2MEBS');
-		Route::get('karimunjawa-3-hari-2-malam-kmc-kartini-semarang', 'TourPackageController@Karjaw3H2MKS');
-		Route::get('karimunjawa-3-hari-2-malam-ferry', 'TourPackageController@Karjaw3H2MFJ');
-		Route::get('karimunjawa-4-hari-3-malam-express-bahari-jepara', 'TourPackageController@Karjaw4H3MEBJ');
-		Route::get('karimunjawa-4-hari-3-malam-ferry', 'TourPackageController@Karjaw4H3MFJ');
+		Route::get('/', 'TourPackageController@index')->name('paket-wisata');
+		Route::get('karimunjawa-2-hari-1-malam-express-bahari-jepara', 'TourPackageController@Karjaw2H1MEBJ')->name('2h1m-ebj');
+		Route::get('karimunjawa-2-hari-1-malam-ferry', 'TourPackageController@Karjaw2H1MFJ')->name('2h1m-ferry');
+		Route::get('karimunjawa-2-hari-2-malam-pelni', 'TourPackageController@Karjaw2H2MPS')->name('2h2m-pelni');
+		Route::get('karimunjawa-3-hari-2-malam-express-bahari-jepara', 'TourPackageController@Karjaw3H2MEBJ')->name('3h2m-ebj');
+		Route::get('karimunjawa-3-hari-2-malam-express-bahari-semarang', 'TourPackageController@Karjaw3H2MEBS')->name('3h2m-ebs');
+		Route::get('karimunjawa-3-hari-2-malam-kmc-kartini-semarang', 'TourPackageController@Karjaw3H2MKS')->name('3h2m-kmc');
+		Route::get('karimunjawa-3-hari-2-malam-ferry', 'TourPackageController@Karjaw3H2MFJ')->name('3h2m-ferry');
+		Route::get('karimunjawa-4-hari-3-malam-express-bahari-jepara', 'TourPackageController@Karjaw4H3MEBJ')->name('4h3m-ebj');
+		Route::get('karimunjawa-4-hari-3-malam-ferry', 'TourPackageController@Karjaw4H3MFJ')->name('4h3m-ferry');
 		Route::get('open-trip-harmoni-karimunjawa', 'TourPackageController@KarjawOT')->name('open-trip');
+		Route::get('honeymoon-trip-harmoni-karimunjawa', 'TourPackageController@KarjawHoneymoon')->name('honeymoon-trip');
+		Route::get('trip-karimunjawa-dengan-pesawat', 'TourPackageController@KarjawbyPlane')->name('by-plane-trip');
 	});
 });
 

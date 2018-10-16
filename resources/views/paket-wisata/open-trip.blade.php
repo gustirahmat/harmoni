@@ -254,7 +254,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="title m-b-md text-center">
-                            Fasilitas 2H1M via Ferry Siginjai Jepara
+                            Fasilitas Open Trip
                         </div>
                         <div class="row">
                             <div class="col-12 col-md">
@@ -281,7 +281,6 @@
                                     <li>HTM Kolam Hiu (Rp. 40.000,-)</li>
                                     <li>HTM Menjangan Resort (Rp. 20.000,-)</li>
                                     <li>HTM Penangkaran Penyu (Rp. 5.000,-)</li>
-                                    <li>&uparrow;&uparrow;&uparrow; jika rute diambil operator</li>
                                 </ul>
                             </div>
                             <div class="col-12 col-md">
@@ -300,19 +299,11 @@
                 <hr class="shadow-sm">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Bagikan Halaman:</h4>
-                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                        <div class="elfsight-app-7c14c740-47e6-4813-86df-c8e357b82c25"></div>
-                        <hr>
                         <h4>Tulis Komentar:</h4>
-                        <div class="fb-comments" data-href="https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa" data-width="100%" data-numposts="10"></div>
+                        <div class="fb-comments" data-href="{{ route('open-trip') }}" data-width="100%" data-numposts="10"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-@endsection
-
-@section('scripts')
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b74dfc899d787f5"></script>
 @endsection

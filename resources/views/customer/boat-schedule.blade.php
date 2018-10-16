@@ -296,12 +296,8 @@
                 <hr class="shadow-sm">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Bagikan Halaman:</h4>
-                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                        <div class="elfsight-app-7c14c740-47e6-4813-86df-c8e357b82c25"></div>
-                        <hr>
                         <h4>Tulis Komentar:</h4>
-                        <div class="fb-comments" data-href="https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa" data-width="100%" data-numposts="10"></div>
+                        <div class="fb-comments" data-href="{{ route('boat-schedule') }}" data-width="100%" data-numposts="10"></div>
                     </div>
                 </div>
             </div>

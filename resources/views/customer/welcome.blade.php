@@ -67,7 +67,7 @@
 
     <div class="full-height"></div>
 
-    <div class="bg-light" style="background: #f5f8fa">
+    <div class="bg-light" id="paketWisata">
         <div class="pt-5">
             <div class="title m-b-md text-center">
                 Pilih Paketnya!
@@ -78,10 +78,33 @@
             </div>
         </div>
 
-        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center" id="paketWisata">
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center">
+            <div class="bg-success mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
+                <div class="my-3 py-3">
+                    <a href="{{ route('by-plane-trip') }}" class="text-white" style="text-decoration: none">
+                        <h1 class="display-5">Via Bandara Semarang <sup><span class="badge badge-light">Terbaru</span></sup><span class="sr-only">Karimunjawa via Bandara Semarang dengan Pesawat</span></h1>
+                        <p class="lead">Mulai dari Rp. 600.000,- ++</p>
+                        <hr class="shadow-sm">
+                    </a>
+                </div>
+                {{--<div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>--}}
+            </div>
+            <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm" style="background-color: hotpink">
+                <div class="my-3 p-3">
+                    <a href="{{ route('honeymoon-trip') }}" style="text-decoration: none; color: antiquewhite;">
+                        <h1 class="display-5">Honeymoon Trip <span class="sr-only">Honeymoon Trip Harmoni Karimunjawa</span></h1>
+                        <p class="lead">Mulai dari Rp. 1.760.000,- ++</p>
+                        <hr class="shadow-sm">
+                    </a>
+                </div>
+                {{--<div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>--}}
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center">
             <div class="bg-white border border-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 py-3">
-                    <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-express-bahari-jepara') }}" style="text-decoration: none">
+                    <a href="{{ route('2h1m-ebj') }}" style="text-decoration: none">
                         <h1 class="display-5">2H1M via Express Jepara <span class="sr-only">Karimunjawa 2 Hari 1 Malam Express Bahari Jepara</span></h1>
                         <p class="lead">Mulai dari Rp. 760.000,- ++</p>
                         <hr class="shadow-sm">
@@ -91,7 +114,7 @@
             </div>
             <div class="bg-secondary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 p-3">
-                    <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-ferry') }}" class="text-white" style="text-decoration: none">
+                    <a href="{{ route('2h1m-ferry') }}" class="text-white" style="text-decoration: none">
                         <h1 class="display-5">2H1M via Ferry Jepara <sup><span class="badge badge-light">Termurah</span></sup><span class="sr-only">Karimunjawa 2 Hari 1 Malam Ferry</span></h1>
                         <p class="lead">Mulai dari Rp. 600.000,- ++</p>
                         <hr class="shadow-sm">
@@ -104,7 +127,7 @@
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center">
             <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 py-3">
-                    <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-2-hari-2-malam-pelni') }}" style="text-decoration: none">
+                    <a href="{{ route('2h2m-pelni') }}" style="text-decoration: none">
                         <h1 class="display-5">2H2M via Pelni Semarang <span class="sr-only">Karimunjawa 2 Hari 2 Malam Pelni</span></h1>
                         <p class="lead">Mulai dari Rp. 700.000,- ++</p>
                         <hr class="shadow-sm">
@@ -114,7 +137,7 @@
             </div>
             <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 p-3">
-                    <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-jepara') }}" class="text-white" style="text-decoration: none">
+                    <a href="{{ route('3h2m-ebj') }}" class="text-white" style="text-decoration: none">
                         <h1 class="display-5">3H2M via Express Jepara <sup><span class="badge badge-light">Terbaik</span></sup><span class="sr-only">Karimunjawa 2 Hari 2 Malam Express Bahari Jepara</span></h1>
                         <p class="lead">Mulai dari Rp. 910.000,- ++</p>
                         <hr class="shadow-sm">
@@ -125,10 +148,10 @@
         </div>
 
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center">
-            <div class="bg-success mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
+            <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 py-3">
-                    <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-semarang') }}" class="text-white" style="text-decoration: none">
-                        <h1 class="display-5">3H2M via Express Semarang <sup><span class="badge badge-light">Terbaru</span></sup><span class="sr-only">Karimunjawa 3 Hari 2 Malam Express Bahari Semarang</span></h1>
+                    <a href="{{ route('3h2m-ebs') }}" style="text-decoration: none">
+                        <h1 class="display-5">3H2M via Express Semarang <span class="sr-only">Karimunjawa 3 Hari 2 Malam Express Bahari Semarang</span></h1>
                         <p class="lead">Mulai dari Rp. 1.100.000,- ++</p>
                         <hr class="shadow-sm">
                     </a>
@@ -137,7 +160,7 @@
             </div>
             <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 p-3">
-                    <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-kmc-kartini-semarang') }}" style="text-decoration: none">
+                    <a href="{{ route('3h2m-kmc') }}" style="text-decoration: none">
                         <h1 class="display-5">3H2M via KMC Kartini Semarang <span class="sr-only">Karimunjawa 3 Hari 2 Malam KMC Kartini Semarang</span></h1>
                         <p class="lead">Mulai dari Rp. 910.000,- ++</p>
                         <hr class="shadow-sm">
@@ -150,7 +173,7 @@
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center">
             <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 py-3">
-                    <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-ferry') }}" style="text-decoration: none">
+                    <a href="{{ route('3h2m-ferry') }}" style="text-decoration: none">
                         <h1 class="display-5">3H2M via Ferry Jepara <span class="sr-only">Karimunjawa 3 Hari 2 Malam Ferry</span></h1>
                         <p class="lead">Mulai dari Rp. 750.000,- ++</p>
                         <hr class="shadow-sm">
@@ -160,7 +183,7 @@
             </div>
             <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 p-3">
-                    <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-ferry') }}" style="text-decoration: none">
+                    <a href="{{ route('4h3m-ferry') }}" style="text-decoration: none">
                         <h1 class="display-5">4H3M via Ferry Jepara <span class="sr-only">Karimunjawa 4 Hari 3 Malam Ferry</span></h1>
                         <p class="lead">Mulai dari Rp. 875.000,- ++</p>
                         <hr class="shadow-sm">
@@ -173,7 +196,7 @@
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center">
             <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 py-3">
-                    <a href="{{ url('/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-express-bahari-jepara') }}" style="text-decoration: none">
+                    <a href="{{ route('4h3m-ebj') }}" style="text-decoration: none">
                         <h1 class="display-5">4H3M via Express Jepara <span class="sr-only">Karimunjawa 4 Hari 3 Malam Express Bahari Jepara</span></h1>
                         <p class="lead">Mulai dari Rp. 1.035.000,- ++</p>
                         <hr class="shadow-sm">
@@ -183,7 +206,7 @@
             </div>
             <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
                 <div class="my-3 p-3">
-                    <a href="#jadwalOpenTripHarmoniKarimunjawa" style="text-decoration: none">
+                    <a href="{{ route('open-trip') }}" style="text-decoration: none">
                         <h1 class="display-5">Open Trip <span class="sr-only">Open Trip Harmoni Karimunjawa</span></h1>
                         <p class="lead">Mulai dari Rp. 600.000,- ++</p>
                         <hr class="shadow-sm">
