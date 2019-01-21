@@ -50,6 +50,11 @@
         </style>
     @endif
     <style>
+        .nav-tabs .nav-itin.active {
+            color: antiquewhite;
+            background-color: hotpink;
+            border-color: #dee2e6 #dee2e6 antiquewhite;
+        }
         #navbar {
             transition: top 0.5s;
             border-bottom: thin inset dodgerblue;
