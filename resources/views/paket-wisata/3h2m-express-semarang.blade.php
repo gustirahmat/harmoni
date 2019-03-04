@@ -9,7 +9,7 @@
                         <div class="title m-b-md text-center">
                             Harga Paket 3H2M via Express Bahari Semarang
                         </div>
-                        <p class="lead font-weight-bold text-center">KEBERANGKATAN SELASA - KAMIS / JUMAT - MINGGU</p>
+                        <p class="lead font-weight-bold text-center">KEBERANGKATAN JUMAT - MINGGU</p>
                         <div class="table-responsive">
                             <table class="table table-bordered">
                                 <thead class="font-weight-bold bg-primary text-white text-center text-uppercase">
@@ -147,6 +147,7 @@
                             <p class="text-uppercase" style="font-size: x-large;">Catatan:</p>
                             <ul>
                                 <li>Harga yang tertera untuk 1 orang</li>
+                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp. 150.000,- </li>
                                 <li>Pendaftaran peserta minimal untuk 2 orang</li>
                                 <li>Pendaftaran untuk 11 peserta ke atas bisa dilayani private trip</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>

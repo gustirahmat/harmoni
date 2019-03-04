@@ -147,6 +147,7 @@
                             <p class="text-uppercase" style="font-size: x-large;">Catatan:</p>
                             <ul>
                                 <li>Harga yang tertera untuk 1 orang</li>
+                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp. 150.000,- </li>
                                 <li>Pendaftaran peserta minimal untuk 2 orang</li>
                                 <li>Pendaftaran untuk 11 peserta ke atas bisa dilayani private trip</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>

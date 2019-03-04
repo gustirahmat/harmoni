@@ -13,6 +13,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#1e90ff">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -33,7 +34,9 @@
 
     <meta name="google-site-verification" content="DjP4iRt1HFHwd_vwNr4Y61jgE0UegBgKgy1sFw94Y-g" />
 
-    <link rel="shortcut icon" href="{{{ asset('img/favicon.ico') }}}">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" />
+    <link rel="icon" sizes="192x192" href="{{ asset('img/logo192.png') }}" />
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -50,11 +53,6 @@
         </style>
     @endif
     <style>
-        .nav-tabs .nav-itin.active {
-            color: antiquewhite;
-            background-color: hotpink;
-            border-color: #dee2e6 #dee2e6 antiquewhite;
-        }
         #navbar {
             transition: top 0.5s;
             border-bottom: thin inset dodgerblue;

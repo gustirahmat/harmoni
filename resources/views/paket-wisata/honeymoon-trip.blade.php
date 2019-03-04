@@ -50,6 +50,7 @@
                             <ul>
                                 <li>Jika sewaktu penyeberangan hanya menyediakan kapal Ferry Siginjai maka akan kami usahakan untuk tiket kelas VIP</li>
                                 <li>Harga yang tertera untuk 2 orang (1 couple)</li>
+                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp. 150.000,- </li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
                                 <li>Meeting Point di Pelabuhan Kartini, Jepara</li>
                             </ul>
@@ -533,8 +534,7 @@
                                     <li>Tranport wisata</li>
                                     <li>Guide Lokal</li>
                                     <li>Alat snorkeling + life jacket</li>
-                                    <li>Dokumentasi Wisata Laut dan Wisata Darat</li>
-                                    <li>Dokumentasi Aerial/Drone (kondisional)</li>
+                                    <li>Full dokumentasi (DSLR + DRONE + UNDERWATER) & Video klip durasi 1 menit</li>
                                     <li>Biaya sandar perahu</li>
                                     <li>Air mineral</li>
                                     <li>Asuransi Penyeberangan</li>

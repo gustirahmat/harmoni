@@ -1,0 +1,21 @@
+{
+  "short_name": "Harmoni",
+  "name": "Harmoni Karimunjawa Tour and Travel",
+  "icons": [
+    {
+      "src": "/public/img/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/public/img/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/public/",
+  "background_color": "#1e90ff",
+  "display": "standalone",
+  "scope": "/public/",
+  "theme_color": "#1e90ff"
+}

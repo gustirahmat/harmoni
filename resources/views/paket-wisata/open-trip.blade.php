@@ -239,6 +239,7 @@
                             <p class="text-uppercase" style="font-size: x-large;">Catatan:</p>
                             <ul>
                                 <li>Pendaftaran minimal untuk 2 orang</li>
+                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp. 150.000,- </li>
                                 <li>Harga yang tertera untuk 1 orang</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>
                                 <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi</li>

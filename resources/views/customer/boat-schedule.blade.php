@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="title text-center py-4">
-                            Jadwal Kapal Karimunjawa {{ date('Y') }} *
+                            Jadwal Kapal Karimunjawa {{ date('Y') }}
                         </div>
                         <div class="table-responsive">
                             <table class="table table-bordered text-center">
@@ -23,273 +23,136 @@
                                 <tbody>
                                     <tr>
                                         <td scope="row" rowspan="2">Senin</td>
-                                        <td scope="row" class="text-left">
-                                            Ferry Siginjai
-                                            {{--<div class="float-right">--}}
-                                                {{--<a href="#" id="linkFotoKapal" title="Klik untuk melihat foto kapal" data-toggle="modal" data-target="#modalFotoKapal" data-kapal="/img/LogoLicious_20180609_200827.png"><i class="icon ion-ios-boat"></i> Lihat kapal</a>--}}
-                                            {{--</div>--}}
-                                        </td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        <td scope="row">07:00</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
-                                    </tr>
-                                    <tr>
-                                        {{--<td scope="row">Senin</td>--}}
-                                        <td scope="row" class="text-left">
-                                            Express Bahari
-                                            {{--<div class="float-right">--}}
-                                                {{--<a href="#" id="linkFotoKapal" title="Klik untuk melihat foto kapal" data-toggle="modal" data-target="#modalFotoKapal" data-kapal="/img/LogoLicious_20180609_205541.png"><i class="icon ion-ios-boat"></i> Lihat kapal</a>--}}
-                                            {{--</div>--}}
-                                        </td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">Express Bahari</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row">09:00</td>
                                         <td scope="row">12:00</td>
                                     </tr>
-                                    <tr class="bg-primary text-white">
-                                        <td scope="row" rowspan="3">Selasa</td>
-                                        <td scope="row" class="text-left">Express Bahari</td>
-                                        <td scope="row" class="text-left">
-                                            Semarang
-                                            <div class="float-right">
-                                                <a target="_blank" class="text-white" href="https://goo.gl/maps/A9YmE95y44N2"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        <td scope="row">08:00</td>
-                                        <td scope="row" rowspan="2" class="bg-danger text-white">OFF</td>
+                                    <tr>
+                                        <td scope="row">Ferry Siginjai</td>
+                                        <td scope="row">Jepara</td>
+                                        <td scope="row">07:00</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        {{--<td scope="row">Selasa</td>--}}
-                                        <td scope="row" class="text-left">Express Bahari</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" class="text-white" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row" rowspan="2">Selasa</td>
+                                        <td scope="row">Express Bahari</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row">09:00</td>
-                                        {{--<td scope="row">-</td>--}}
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        {{--<td scope="row">Selasa</td>--}}
-                                        <td scope="row" class="text-left">Ferry Siginjai</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" class="text-white" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">Ferry Siginjai</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row" class="bg-danger text-white">OFF</td>
                                         <td scope="row">07:00</td>
                                     </tr>
                                     <tr>
                                         <td scope="row" rowspan="2">Rabu</td>
-                                        <td scope="row" class="text-left">Ferry Siginjai</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        <td scope="row">07:00</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
-                                    </tr>
-                                    <tr>
-                                        {{--<td scope="row">Rabu</td>--}}
-                                        <td scope="row" class="text-left">Express Bahari</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">Express Bahari</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row" class="bg-danger text-white">OFF</td>
                                         <td scope="row">11:00</td>
                                     </tr>
-                                    <tr class="bg-primary text-white">
-                                        <td scope="row" rowspan="2">Kamis</td>
-                                        <td scope="row" class="text-left">Ferry Siginjai</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" class="text-white" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        <td scope="row" rowspan="2" class="bg-danger text-white">OFF</td>
+                                    <tr>
+                                        <td scope="row">Ferry Siginjai</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row">07:00</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        {{--<td scope="row">Kamis</td>--}}
-                                        <td scope="row" class="text-left">Express Bahari</td>
-                                        <td scope="row" class="text-left">
-                                            Semarang
-                                            <div class="float-right">
-                                                <a target="_blank" class="text-white" href="https://goo.gl/maps/A9YmE95y44N2"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        {{--<td scope="row">OFF</td>--}}
-                                        <td scope="row">12:00</td>
+                                        <td scope="row">Kamis</td>
+                                        <td scope="row">Ferry Siginjai</td>
+                                        <td scope="row">Jepara</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
+                                        <td scope="row">07:00</td>
                                     </tr>
                                     <tr>
                                         <td scope="row" rowspan="4">Jumat</td>
-                                        <td scope="row" class="text-left">Ferry Siginjai</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">Express Bahari</td>
+                                        <td scope="row">Jepara</td>
+                                        <td scope="row">09:00</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">Ferry Siginjai</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row">06:30</td>
                                         <td scope="row">12:45</td>
                                     </tr>
                                     <tr>
-                                        {{--<td scope="row">Jumat</td>--}}
-                                        <td scope="row" class="text-left">Express Bahari</td>
-                                        <td scope="row" class="text-left">
-                                            Semarang
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/A9YmE95y44N2"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">Express Bahari</td>
+                                        <td scope="row">Semarang</td>
                                         <td scope="row">08:00</td>
-                                        <td scope="row" rowspan="2" class="bg-danger text-white">OFF</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr>
-                                        {{--<td scope="row">Jumat</td>--}}
-                                        <td scope="row" class="text-left">Express Bahari</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        <td scope="row">09:00</td>
-                                        {{--<td scope="row">-</td>--}}
-                                    </tr>
-                                    <tr>
-                                        {{--<td scope="row">Jumat</td>--}}
-                                        <td scope="row" class="text-left">KMC Kartini</td>
-                                        <td scope="row" class="text-left">
-                                            Semarang
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/A9YmE95y44N2"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">KMC Kartini</td>
+                                        <td scope="row">Semarang</td>
                                         <td scope="row">09:00</td>
                                         <td scope="row">12:00</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td scope="row" rowspan="3">Sabtu</td>
-                                        <td scope="row" class="text-left">Express Bahari</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" class="text-white" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">Express Bahari</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row">10:00</td>
                                         <td scope="row">07:00</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        {{--<td scope="row">Sabtu</td>--}}
-                                        <td scope="row" class="text-left">Ferry Siginjai</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" class="text-white" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">Ferry Siginjai</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row">07:00</td>
                                         <td scope="row">12:45</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        {{--<td scope="row">Sabtu</td>--}}
-                                        <td scope="row" class="text-left">Pelni</td>
-                                        <td scope="row" class="text-left">
-                                            Semarang
-                                            <div class="float-right">
-                                                <a target="_blank" class="text-white" href="https://goo.gl/maps/A9YmE95y44N2"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">Pelni</td>
+                                        <td scope="row">Semarang</td>
                                         <td scope="row">00:00</td>
                                         <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr>
                                         <td scope="row" rowspan="5">Minggu</td>
-                                        <td scope="row" class="text-left">Ferry Siginjai</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
+                                        <td scope="row">Express Bahari</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row" rowspan="5" class="bg-danger text-white">OFF</td>
+                                        <td scope="row">11:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">Ferry Siginjai</td>
+                                        <td scope="row">Jepara</td>
                                         <td scope="row">07:00</td>
                                     </tr>
                                     <tr>
-                                        {{--<td scope="row">Minggu</td>--}}
-                                        <td scope="row" class="text-left">Express Bahari</td>
-                                        <td scope="row" class="text-left">
-                                            Jepara
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/eUCgM1tx3qp"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        {{--<td scope="row">OFF</td>--}}
-                                        <td scope="row">11:00</td>
-                                    </tr>
-                                    <tr>
-                                        {{--<td scope="row">Minggu</td>--}}
-                                        <td scope="row" class="text-left">KMC Kartini</td>
-                                        <td scope="row" class="text-left">
-                                            Semarang
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/A9YmE95y44N2"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        {{--<td scope="row">OFF</td>--}}
-                                        <td scope="row">11:00</td>
-                                    </tr>
-                                    <tr>
-                                        {{--<td scope="row">Minggu</td>--}}
-                                        <td scope="row" class="text-left">Express Bahari</td>
-                                        <td scope="row" class="text-left">
-                                            Semarang
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/A9YmE95y44N2"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        {{--<td scope="row">OFF</td>--}}
+                                        <td scope="row">Express Bahari</td>
+                                        <td scope="row">Semarang</td>
                                         <td scope="row">12:00</td>
                                     </tr>
                                     <tr>
-                                        {{--<td scope="row">Minggu</td>--}}
-                                        <td scope="row" class="text-left">Pelni</td>
-                                        <td scope="row" class="text-left">
-                                            Semarang
-                                            <div class="float-right">
-                                                <a target="_blank" href="https://goo.gl/maps/A9YmE95y44N2"><i class="icon ion-ios-pin"></i> Lihat peta</a>
-                                            </div>
-                                        </td>
-                                        {{--<td scope="row">OFF</td>--}}
+                                        <td scope="row">KMC Kartini</td>
+                                        <td scope="row">Semarang</td>
+                                        <td scope="row">11:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">Pelni</td>
+                                        <td scope="row">Semarang</td>
                                         <td scope="row">13:00</td>
                                     </tr>
                                 </tbody>
                                 <tfoot>
                                     <tr>
-                                        <td colspan="5" class="font-weight-bold text-danger"><i>* Jadwal pemberangkatan kapal dapat berubah sewaktu-waktu</i></td>
+                                        <td colspan="5" class="font-weight-bold text-danger"><i>Jadwal pemberangkatan kapal dapat berubah sewaktu-waktu</i></td>
                                     </tr>
                                 </tfoot>
                             </table>
+                        </div>
+                        <hr>
+                        <div>
+                            <h4>Lokasi Pelabuhan Kartini Jepara</h4>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1014728.7207619788!2d110.1351053!3d-6.548926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e711eee195348e5%3A0xe254700a5bd4fa0d!2sKartini+Jepara+Port!5e0!3m2!1sen!2sid!4v1551534229355" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <hr>
+                            <h4>Lokasi Pelabuhan Tanjung Mas Semarang</h4>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.526662624531!2d110.42183201477313!3d-6.947028894980952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70f49923fd2e61%3A0xfa6ae037b9996be8!2sTerminal+Penumpang+Tanjung+Emas+Semarang!5e0!3m2!1sen!2sid!4v1551534173255" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
