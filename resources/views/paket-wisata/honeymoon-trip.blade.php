@@ -552,8 +552,8 @@
                                 <h4>Upgrade Tiket / Kapal:</h4>
                                 <ol>
                                     <li>Express Bahari Jepara - VIP (Rp. 110.000,- / one way)</li>
-                                    <li>Express Bahari Semarang - Executive (Rp. 175.000,- / one way)</li>
-                                    <li>Express Bahari Semarang - VIP (Rp. 275.000,- / one way)</li>
+                                    <li><s>Express Bahari Semarang - Executive (Rp. 175.000,- / one way)</s></li>
+                                    <li><s>Express Bahari Semarang - VIP (Rp. 275.000,- / one way)</s></li>
                                 </ol>
                             </div>
                         </div>

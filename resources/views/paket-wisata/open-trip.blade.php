@@ -290,8 +290,8 @@
                                     <li>Ferry - VIP (Rp. 25.000,- / one way)</li>
                                     <li>Express Bahari Jepara - Executive (Rp. 80.000,- / one way)</li>
                                     <li>Express Bahari Jepara - VIP (Rp. 110.000,- / one way)</li>
-                                    <li>Express Bahari Semarang - Executive (Rp. 175.000,- / one way)</li>
-                                    <li>Express Bahari Semarang - VIP (Rp. 275.000,- / one way)</li>
+                                    <li><s>Express Bahari Semarang - Executive (Rp. 175.000,- / one way)</s></li>
+                                    <li><s>Express Bahari Semarang - VIP (Rp. 275.000,- / one way)</s></li>
                                 </ul>
                             </div>
                         </div>

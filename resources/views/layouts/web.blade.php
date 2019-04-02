@@ -230,7 +230,7 @@
                         <a class="dropdown-item" href="{{ route('2h1m-ferry') }}"> Karimunjawa 2H1M via Ferry Jepara <sup><span class="badge badge-secondary">Termurah</span></sup></a>
                         <a class="dropdown-item" href="{{ route('2h2m-pelni') }}"> Karimunjawa 2H2M via Pelni Semarang</a>
                         <a class="dropdown-item" href="{{ route('3h2m-ebj') }}"> Karimunjawa 3H2M via Express Jepara <sup><span class="badge badge-primary">Terbaik</span></sup></a>
-                        <a class="dropdown-item" href="{{ route('3h2m-ebs') }}"> Karimunjawa 3H2M via Express Semarang</a>
+                        <a class="dropdown-item disabled" href="{{ route('3h2m-ebs') }}" tabindex="-1" aria-disabled="true"> <s>Karimunjawa 3H2M via Express Semarang <sup><span class="badge badge-dark">Tidak tersedia</span></sup></s></a>
                         <a class="dropdown-item" href="{{ route('3h2m-kmc') }}"> Karimunjawa 3H2M via KMC Kartini Semarang</a>
                         <a class="dropdown-item" href="{{ route('3h2m-ferry') }}"> Karimunjawa 3H2M via Ferry Jepara</a>
                         <a class="dropdown-item" href="{{ route('4h3m-ebj') }}"> Karimunjawa 4H3M via Express Jepara</a>
