@@ -89,8 +89,8 @@
                                     <tr>
                                         <td scope="row">KMC Kartini</td>
                                         <td scope="row">Semarang</td>
-                                        <td scope="row">09:00</td>
-                                        <td scope="row">12:00</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td scope="row" rowspan="3">Sabtu</td>
@@ -131,7 +131,7 @@
                                     <tr>
                                         <td scope="row">KMC Kartini</td>
                                         <td scope="row">Semarang</td>
-                                        <td scope="row">11:00</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr>
                                         <td scope="row">Pelni</td>
