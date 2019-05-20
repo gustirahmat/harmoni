@@ -46,20 +46,33 @@
     </div>
 
     <div class="container py-5">
-        <div class="card shadow-sm text-center">
+        <div class="card shadow-sm">
             <div class="card-body">
                 <div class="card-text">
-                    <div class="title m-b-md">
-                        Selamat Datang di Karimunjawa
+                    <div class="text-center">
+                        <div class="title m-b-md">
+                            Selamat Datang di Karimunjawa
+                        </div>
+                        <b>Taman Nasional Kepulauan Karimunjawa</b> berada di titik koordinat 5°49′LU 110°24′BT﻿ / ﻿5,817°LS 110,4°BT.
+                        <br>
+                        Pulau dengan luas keseluruhan lebih dari 100.000 Hektar dan di huni hampir 10.000 jiwa ini berada dibawah administrasi Kabupaten Jepara - Jawa Tengah.
+                        <b>Kepulauan Karimunjawa</b> dikelilingi 27 gugusan pulau-pulau kecil dengan beberapa diantaranya menjadi spot pupuler untuk di kunjungi Turis dari berbagai Negara.
+                        Keindahan alam <b>Kepulauan Karimunjawa</b> sudah di kenal dunia sejak era tahun 80an. Akses untuk menuju <b>Kepulauan Karimunjawa</b> bisa dilakukan dari Jepara dengan penyeberangan kapal yang hampir ada setiap hari atau Semarang pada waktu - waktu tertentu, tetapi perlu diketahui untuk berkunjung ke pulau ini tidak mudah dilakukan ketika akhir pekan dan musim libur sekolah atau nasional mengingat animo wisatawan yang berminat datang ke <b>Kepulauan Karimunjawa</b> saat ini begitu besar.
+                        Dari pertimbangan inilah <span> <img src="{{ asset('img/logo.png') }}" id="Logo Harmoni Karimunjawa" alt="Logo Harmoni Karimunjawa"> </span> bertekad menjembatani Anda agar lebih mudah dan menyenangkan ketika mengunjungi <b>Taman Nasional Karimunjawa</b>.
+                        <br>
+                        Segera pilih <a href="#paketWisata" style="font-size: larger; text-decoration: underline"><b>Paket Wisata</b></a> dari kami sesuai dengan yang Anda butuhkan.
                     </div>
-                    <b>Taman Nasional Kepulauan Karimunjawa</b> berada di titik koordinat 5°49′LU 110°24′BT﻿ / ﻿5,817°LS 110,4°BT.
-                    <br>
-                    Pulau dengan luas keseluruhan lebih dari 100.000 Hektar dan di huni hampir 10.000 jiwa ini berada dibawah administrasi Kabupaten Jepara - Jawa Tengah.
-                    <b>Kepulauan Karimunjawa</b> dikelilingi 27 gugusan pulau-pulau kecil dengan beberapa diantaranya menjadi spot pupuler untuk di kunjungi Turis dari berbagai Negara.
-                    Keindahan alam <b>Kepulauan Karimunjawa</b> sudah di kenal dunia sejak era tahun 80an. Akses untuk menuju <b>Kepulauan Karimunjawa</b> bisa dilakukan dari Jepara dengan penyeberangan kapal yang hampir ada setiap hari atau Semarang pada waktu - waktu tertentu, tetapi perlu diketahui untuk berkunjung ke pulau ini tidak mudah dilakukan ketika akhir pekan dan musim libur sekolah atau nasional mengingat animo wisatawan yang berminat datang ke <b>Kepulauan Karimunjawa</b> saat ini begitu besar.
-                    Dari pertimbangan inilah <span> <img src="{{ asset('img/logo.png') }}" id="Logo Harmoni Karimunjawa" alt="Logo Harmoni Karimunjawa"> </span> bertekad menjembatani Anda agar lebih mudah dan menyenangkan ketika mengunjungi <b>Taman Nasional Karimunjawa</b>.
-                    <br>
-                    Segera pilih <a href="#paketWisata" style="font-size: larger; text-decoration: underline"><b>Paket Wisata</b></a> dari kami sesuai dengan yang Anda butuhkan.
+                    <hr>
+                    <h4 class="text-center"><u>Pengumuman</u></h4>
+                    <p>
+                        Mulai <b>Senin, 13 Mei 2019</b> terdapat penyesuaian harga mengikuti kenaikan harga tiket kapal, yaitu sebagai berikut:
+                        <ol>
+                            <li>Seluruh harga paket wisata yang menggunakan kapal Express Bahari Jepara kelas Executive naik sebesar Rp. 20.000,- / pax</li>
+                            <li>Seluruh harga paket wisata yang menggunakan kapal Ferry Siginjai Jepara kelas Reguler naik sebesar Rp. 35.000,- / pax</li>
+                            <li>Upgrade tiket kapal Express Bahari Jepara kelas VIP menjadi Rp. 35.000,- one way dari total harga paket</li>
+                            <li>Upgrade tiket kapal Ferry Siginjai Jepara kelas VIP menjadi Rp. 35.000,- one way dari total harga paket</li>
+                        </ol>
+                    </p>
                 </div>
             </div>
         </div>
@@ -156,13 +169,11 @@
                 </div>
                 {{--<div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>--}}
             </div>
-            <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
-                <div class="my-3 p-3">
-                    <a href="{{ route('3h2m-kmc') }}" style="text-decoration: none">
-                        <h1 class="display-5">3H2M via KMC Kartini Semarang <span class="sr-only">Karimunjawa 3 Hari 2 Malam KMC Kartini Semarang</span></h1>
-                        <p class="lead">Mulai dari Rp. 910.000,- ++</p>
-                        <hr class="shadow-sm">
-                    </a>
+            <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
+                <div class="my-3 p-3 text-white-50">
+                    <h1 class="display-5"><s>3H2M via KMC Kartini Semarang <span class="sr-only">Karimunjawa 3 Hari 2 Malam KMC Kartini Semarang</span></s></h1>
+                    <p class="lead">Sementara tidak tersedia <span class="sr-only">Temporary unavailable</span></p>
+                    <hr class="shadow-sm">
                 </div>
                 {{--<div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>--}}
             </div>

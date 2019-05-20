@@ -9,7 +9,8 @@
                         <div class="title m-b-md text-center">
                             Harga Paket 3H2M via KMC Kartini Semarang
                         </div>
-                        <p class="lead font-weight-bold text-center">KEBERANGKATAN JUMAT - MINGGU</p>
+                        <p class="lead font-weight-bold text-center"><s>KEBERANGKATAN JUMAT - MINGGU</s></p>
+                        <p class="lead font-weight-bold text-center">Sementara tidak tersedia</p>
                         <div class="table-responsive">
                             <table class="table table-bordered">
                                 <thead class="font-weight-bold bg-primary text-white text-center text-uppercase">
