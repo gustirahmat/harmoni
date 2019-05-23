@@ -1,9 +1,7 @@
 /docs
 /node_modules
-/public/img
 /public/page-cache
 /public/storage
-/public/video
 /storage/*.key
 /vendor
 /.idea
