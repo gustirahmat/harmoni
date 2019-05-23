@@ -275,8 +275,6 @@
                     <li><a class="text-muted" href="{{ route('2h1m-ferry') }}"> &blacktriangleright; 2H1M via Ferry Jepara <span class="sr-only">Paket Karimunjawa 2 Hari 1 Malam Ferry Jepara</span></a></li>
                     <li><a class="text-muted" href="{{ route('2h2m-pelni') }}"> &blacktriangleright; 2H2M via Pelni Semarang <span class="sr-only">Paket Karimunjawa 2 Hari 2 Malam Pelni Semarang</span></a></li>
                     <li><a class="text-muted" href="{{ route('3h2m-ebj') }}"> &blacktriangleright; 3H2M via Express Jepara <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam Express Bahari Jepara</span></a></li>
-                    <li><a class="text-muted" href="{{ route('3h2m-ebs') }}"> &blacktriangleright; 3H2M via Express Semarang <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam Express Bahari Semarang</span></a></li>
-                    <li><a class="text-muted" href="{{ route('3h2m-kmc') }}"> &blacktriangleright; 3H2M via KMC Kartini Semarang <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam KMC Kartini Semarang</span></a></li>
                     <li><a class="text-muted" href="{{ route('3h2m-ferry') }}"> &blacktriangleright; 3H2M via Ferry Jepara <span class="sr-only">Paket Karimunjawa 3 Hari 2 Malam Ferry Jepara</span></a></li>
                     <li><a class="text-muted" href="{{ route('4h3m-ebj') }}"> &blacktriangleright; 4H3M via Express Jepara <span class="sr-only">Paket Karimunjawa 4 Hari 3 Malam Express Bahari Jepara</span></a></li>
                     <li><a class="text-muted" href="{{ route('4h3m-ferry') }}"> &blacktriangleright; 4H3M via Ferry Jepara <span class="sr-only">Paket Karimunjawa 4 Hari 3 Malam Ferry Jepara</span></a></li>
