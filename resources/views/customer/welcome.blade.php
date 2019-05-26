@@ -3,7 +3,7 @@
 @section('content')
     <div class="fullscreen-bg">
         <video playsinline loop muted autoplay poster="{{ asset('img/LogoLicious_20180609_210403.png') }}" class="fullscreen-bg__video">
-            <source src="{{ asset('video/Harmoni Karimunjawa.mp4') }}" type="video/mp4">
+            <source src="{{ asset('video/Harmoni_Karimun.mp4') }}" type="video/mp4">
         </video>
     </div>
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">

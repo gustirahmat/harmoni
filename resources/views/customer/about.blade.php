@@ -18,7 +18,7 @@
                             Kami mengutamakan edukasi untuk mengenalkan biota laut beserta habitatnya dan cara menjaga ekosistem agar keindahannya tetap bisa dinikmati sampai anak cucu kita nanti.
                         </p>
                         <div>
-                            <video src="{{ asset('video/Harmoni Karimunjawa.mp4') }}" width="100%" height="320" controls>
+                            <video src="{{ asset('video/Harmoni_Karimun.mp4') }}" width="100%" height="320" controls>
                                 Video not supported
                             </video>
                         </div>
