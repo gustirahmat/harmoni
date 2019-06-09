@@ -2,14 +2,14 @@
 
 namespace harmoniKarimunJawa\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class SitemapController extends Controller
 {
     /**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function index()
     {

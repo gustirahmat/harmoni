@@ -1,120 +1,92 @@
 <?php echo '<?xml version="1.0" encoding="UTF-8"?>'; ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://harmonikarimunjawa.com/public/</loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/</loc>
+        <lastmod>2019-06-09T09:14:03+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-express-bahari-jepara
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/trip-karimunjawa-dengan-pesawat</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-ferry
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-express-bahari-jepara</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/karimunjawa-2-hari-2-malam-pelni
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/karimunjawa-2-hari-1-malam-ferry</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-jepara
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/karimunjawa-2-hari-2-malam-pelni</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-semarang
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-jepara</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-kmc-kartini-semarang
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-express-bahari-semarang</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-ferry
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-kmc-kartini-semarang</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-express-bahari-jepara
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/karimunjawa-3-hari-2-malam-ferry</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-ferry
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-express-bahari-jepara</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/honeymoon-trip-harmoni-karimunjawa
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/karimunjawa-4-hari-3-malam-ferry</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/honeymoon-trip-harmoni-karimunjawa</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/jadwal-kapal-karimunjawa
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/paket-wisata-karimunjawa/open-trip-harmoni-karimunjawa</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/galeri-foto-video-harmoni-karimunjawa
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/jadwal-kapal-karimunjawa</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/syarat-ketentuan-harmoni-karimunjawa
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/galeri-foto-video-harmoni-karimunjawa</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/tentang-harmoni-karimunjawa
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/syarat-ketentuan-harmoni-karimunjawa</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>
-            https://harmonikarimunjawa.com/public/testimoni-harmoni-karimunjawa
-        </loc>
-        <lastmod>2018-12-31T04:29:35+00:00</lastmod>
+        <loc>https://harmonikarimunjawa.com/tentang-harmoni-karimunjawa</loc>
+        <lastmod>2019-06-09T09:53:48+00:00</lastmod>
         <priority>0.80</priority>
     </url>
 </urlset>
