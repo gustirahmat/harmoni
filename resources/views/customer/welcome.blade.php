@@ -161,11 +161,13 @@
         </div>
 
         <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 text-center">
-            <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
-                <div class="my-3 py-3 text-white-50">
-                    <h1 class="display-5"><s>3H2M via Express Semarang <span class="sr-only">Karimunjawa 3 Hari 2 Malam Express Bahari Semarang</span></s></h1>
-                    <p class="lead">Sementara tidak tersedia <span class="sr-only">Temporary unavailable</span></p>
-                    <hr class="shadow-sm">
+            <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 welcome-paket overflow-hidden shadow-sm">
+                <div class="my-3 py-3">
+                    <a href="{{ route('3h2m-ebs') }}" style="text-decoration: none">
+                        <h1 class="display-5">3H2M via Express Semarang <span class="sr-only">Karimunjawa 3 Hari 2 Malam Express Bahari Semarang</span></h1>
+                        <p class="lead">Mulai dari Rp. 1.100.000,- ++</p>
+                        <hr class="shadow-sm">
+                    </a>
                 </div>
                 {{--<div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>--}}
             </div>
