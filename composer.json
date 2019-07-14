@@ -54,9 +54,8 @@
         ],
         "post-install-cmd": [
             "@php artisan clear-compiled",
-            "chmod -R 777 public/",
-            "@php artisan migrate:fresh",
-            "@php artisan page-cache:clear"
+            "@php artisan page-cache:clear",
+            "chmod -R 777 public/"
         ]
     },
     "config": {

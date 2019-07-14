@@ -9,7 +9,7 @@
                         <div class="title m-b-md text-center">
                             Harga Paket 3H2M via Ferry Siginjai Jepara
                         </div>
-                        <p class="lead font-weight-bold text-center">KEBERANGKATAN RABU - JUMAT / JUMAT - MINGGU</p>
+                        <p class="lead font-weight-bold text-center">KEBERANGKATAN SENIN - RABU / RABU - JUMAT / JUMAT - MINGGU</p>
                         <div class="table-responsive">
                             <table class="table table-bordered">
                                 <thead class="font-weight-bold bg-primary text-white text-center text-uppercase">
@@ -314,7 +314,7 @@
                                 <li>Peserta diharuskan tiba di pelabuhan 90 menit sebelum kapal berangakat</li>
                                 <li>Destinasi dan waktu tidak mengikat atau bisa berubah menyesuaikan kondisi di lapangan</li>
                                 <li>Peserta diharapkan untuk melakukan konfirmasi jadwal kapal H-1 trip karena dapat berubah sewaktu-waktu</li>
-                                <li>Penyeberangan dari Karimunjawa hari Jumat kapal diberangkatkan pukul 12:45</li>
+                                <li>Penyeberangan dari Karimunjawa hari Rabu, Kamis, dan Jumat kapal diberangkatkan pukul 12:45</li>
                                 <li>Kegiatan yang tidak tertera di itinerary di luar tanggung jawab kami</li>
                             </ul>
                         </div>
