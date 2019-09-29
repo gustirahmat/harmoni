@@ -226,7 +226,8 @@
                 {{--<div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>--}}
             </div>
         </div>
-        
+
+        <hr class="shadow-sm">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-de22a92a-0b80-4876-ba1b-7471b8c33858"></div>
     </div>

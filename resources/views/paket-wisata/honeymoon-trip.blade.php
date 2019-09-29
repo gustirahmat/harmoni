@@ -1,9 +1,46 @@
 @extends('layouts.web')
 
+@section('css')
+    <style>
+        body {
+            background: url("{!! asset('img/fishnets-and-hearts.png') !!}") !important;
+        }
+        #navbar {
+            border-bottom: thin inset hotpink !important;
+        }
+        .nav-tabs .nav-itin {
+            color: hotpink;
+        }
+        .nav-tabs .nav-itin.active {
+            color: antiquewhite;
+            background-color: hotpink;
+            border-color: #dee2e6 #dee2e6 antiquewhite;
+        }
+        .nav-item:hover {
+            border-top: thin solid hotpink !important;
+        }
+        .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+            background: hotpink !important;
+            color: antiquewhite !important;
+            border-top: thin solid hotpink !important;
+        }
+        .dropdown-item:hover, .dropdown-item:focus {
+            background: hotpink !important;
+            color: antiquewhite !important;
+        }
+    </style>
+@endsection
+
 @section('content')
     <div class="container py-5 my-5">
         <div class="row justify-content-center">
             <div class="col-md-12">
+                <div class="title m-b-md text-center" style="color: hotpink">
+                    Honeymoon Trip Harmoni Karimunjawa
+                </div>
+                <video playsinline loop muted autoplay poster="{{ asset('img/LogoLicious_20180609_205814.png') }}" width="100%">
+                    <source src="{{ asset('video/Honeymoon Wahyu Vivi Harmoni Karimunjawa.mp4') }}" type="video/mp4">
+                </video>
                 <div class="card" style="background-color: hotpink; color: antiquewhite;">
                     <div class="card-body">
                         <div class="title m-b-md text-center">
@@ -14,33 +51,57 @@
                             <table class="table table-bordered table-striped table-hover text-center">
                                 <thead class="font-weight-bold text-uppercase" style="background-color: antiquewhite; color: hotpink;">
                                     <tr>
-                                        <th rowspan="2" class="align-middle">Paket Trip</th>
-                                        <th colspan="3">Jenis Penginapan</th>
+                                        <th rowspan="2" class="align-middle">Lokasi Penginapan</th>
+                                        <th colspan="3" class="align-middle">Paket Trip</th>
                                     </tr>
                                     <tr>
-                                        <th>Hotel Standard / Melati</th>
-                                        <th>Hotel Bintang 3</th>
-                                        <th>Cottage / Villa</th>
+                                        <th class="align-middle">2H1M</th>
+                                        <th class="align-middle">3H2M</th>
+                                        <th class="align-middle">4H3M</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>2H1M</td>
-                                        <td>Rp. 3.520.000,-</td>
-                                        <td>Rp. 3.920.000,-</td>
-                                        <td>Rp. 4.320.000,-</td>
+                                        <td>d'SEASON Hotel - Bisnis</td>
+                                        <td class="price">Rp {{ number_format(4865000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(5700000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(7270000, 0) }}</td>
                                     </tr>
                                     <tr>
-                                        <td>3H2M</td>
-                                        <td>Rp. 4.420.000,-</td>
-                                        <td>Rp. 5.120.000,-</td>
-                                        <td>Rp. 5.920.000,-</td>
+                                        <td>d'SEASON Hotel - Executive</td>
+                                        <td class="price">Rp {{ number_format(4965000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(5900000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(7570000, 0) }}</td>
                                     </tr>
                                     <tr>
-                                        <td>4H3M</td>
-                                        <td>Rp. 5.320.000,-</td>
-                                        <td>Rp. 6.220.000,-</td>
-                                        <td>Rp. 7.520.000,-</td>
+                                        <td>Java Paradise Resort - Standard</td>
+                                        <td class="price">Rp {{ number_format(5119000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(5910000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(7526000, 0) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Java Paradise Resort - Superior</td>
+                                        <td class="price">Rp {{ number_format(5211000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(6090000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(7796000, 0) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Java Paradise Resort - Deluxe</td>
+                                        <td class="price">Rp {{ number_format(5301000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(6270000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(8066000, 0) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Java Paradise Resort - Executive</td>
+                                        <td class="price">Rp {{ number_format(5345000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(6360000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(8200000, 0) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Java Paradise Resort - Suite</td>
+                                        <td class="price">Rp {{ number_format(7685000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(11140000, 0) }}</td>
+                                        <td class="price">Rp {{ number_format(15220000, 0) }}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -50,7 +111,7 @@
                             <ul>
                                 <li>Jika sewaktu penyeberangan hanya menyediakan kapal Ferry Siginjai maka akan kami usahakan untuk tiket kelas VIP</li>
                                 <li>Harga yang tertera untuk 2 orang (1 couple)</li>
-                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp. 150.000,- </li>
+                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp {{ number_format(150000, 0) }}</li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
                                 <li>Meeting Point di Pelabuhan Kartini, Jepara</li>
                             </ul>
@@ -534,26 +595,27 @@
                                     <li>Tranport wisata</li>
                                     <li>Guide Lokal</li>
                                     <li>Alat snorkeling + life jacket</li>
-                                    <li>Full dokumentasi (DSLR + DRONE + UNDERWATER) & Video klip durasi 1 menit</li>
+                                    <li>Full dokumentasi (DSLR + DRONE + UNDERWATER)</li>
                                     <li>Biaya sandar perahu</li>
                                     <li>Air mineral</li>
                                     <li>Asuransi Penyeberangan</li>
                                     <li>Perlengkapan P3K</li>
+                                    <li>Video klip durasi 1 menit <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
+                                    <li>Dekorasi kamar <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
+                                    <li>Romantic dinner <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
                                 </ol>
                             </div>
                             <div class="col-12 col-md">
                                 <h4>Exclude:</h4>
                                 <ol>
-                                    <li>HTM Menjangan Resort (Rp. 20.000,-)</li>
-                                    <li>HTM Penangkaran Penyu (Rp. 5.000,-)</li>
+                                    <li>HTM Menjangan Resort (Rp {{ number_format(20000, 0) }})</li>
+                                    <li>HTM Penangkaran Penyu (Rp {{ number_format(5000, 0) }})</li>
                                 </ol>
                             </div>
                             <div class="col-12 col-md">
                                 <h4>Upgrade Tiket / Kapal:</h4>
                                 <ol>
-                                    <li>Express Bahari Jepara - VIP (Rp. 110.000,- / one way)</li>
-                                    <li><s>Express Bahari Semarang - Executive (Rp. 175.000,- / one way)</s></li>
-                                    <li><s>Express Bahari Semarang - VIP (Rp. 275.000,- / one way)</s></li>
+                                    <li>Express Bahari Jepara - VIP (Rp {{ number_format(110000, 0) }} / one way)</li>
                                 </ol>
                             </div>
                         </div>

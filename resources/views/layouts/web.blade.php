@@ -43,16 +43,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    @if(Request::url() == route('honeymoon-trip'))
-        <style>
-            .nav-tabs .nav-itin.active {
-                color: antiquewhite;
-                background-color: hotpink;
-                border-color: #dee2e6 #dee2e6 antiquewhite;
-            }
-        </style>
-    @endif
     <style>
+        body {
+            background: url("{!! asset('img/just-waves.png') !!}");
+        }
         #navbar {
             transition: top 0.5s;
             border-bottom: thin inset dodgerblue;
@@ -172,6 +166,8 @@
             }
         }
     </style>
+
+    @yield('css')
 
     <!-- Scripts -->
     <script type="application/javascript">
@@ -306,7 +302,9 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     <script>
-        $( document ).ready(function() {
+        $(document).ready(function() {
+            new Intl.NumberFormat('id-ID', {style: 'currency', currency: 'IDR', maximumSignificantDigits: 5}).format($('.price').html());
+
             // Navigation active
             $("ul.navbar-nav a").filter(function(){
                 return this.href == location.href.replace(/#.*/, "");
