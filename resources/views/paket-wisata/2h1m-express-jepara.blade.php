@@ -23,122 +23,122 @@
                                     <tr>
                                         <td rowspan="3">Homestay</td>
                                         <td>Fan Kamar Mandi Luar</td>
-                                        <td>Rp. 760.000,-</td>
+                                        <td>Rp {{ number_format(760000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>Fan Kamar Mandi Dalam</td>
-                                        <td>Rp. 785.000,-</td>
+                                        <td>Rp {{ number_format(785000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>AC Kamar Mandi Dalam</td>
-                                        <td>Rp. 910.000,-</td>
+                                        <td>Rp {{ number_format(910000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td rowspan="5">Hotel Bintang 3</td>
                                         <td>DSEASON - Superior</td>
-                                        <td>Rp. 1.260.000,-</td>
+                                        <td>Rp {{ number_format(1260000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>DSEASON - Bisnis</td>
-                                        <td>Rp. 1.310.000,-</td>
+                                        <td>Rp {{ number_format(1310000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>DSEASON - Executive</td>
-                                        <td>Rp. 1.360.000,-</td>
+                                        <td>Rp {{ number_format(1360000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>JAVA P - Deluxe</td>
-                                        <td>Rp. 1.460.000,-</td>
+                                        <td>Rp {{ number_format(1460000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>JAVA P - Executive</td>
-                                        <td>Rp. 1.510.000,-</td>
+                                        <td>Rp {{ number_format(1510000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="9">Hotel Standard / Melati</td>
                                         <td>PURI Karimun</td>
-                                        <td>Rp. 1.110.000,-</td>
+                                        <td>Rp {{ number_format(1110000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>NEW OCEAN - Standard</td>
-                                        <td>Rp. 1.110.000,-</td>
+                                        <td>Rp {{ number_format(1110000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>NEW OCEAN - Suite</td>
-                                        <td>Rp. 1.160.000,-</td>
+                                        <td>Rp {{ number_format(1160000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>THE KELAPA - Standard</td>
-                                        <td>Rp. 1.110.000,-</td>
+                                        <td>Rp {{ number_format(1110000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>THE KELAPA - Suite</td>
-                                        <td>Rp. 1.260.000,-</td>
+                                        <td>Rp {{ number_format(1260000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>MANGROVE INN</td>
-                                        <td>Rp. 1.110.000,-</td>
+                                        <td>Rp {{ number_format(1110000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>ESCAPE - Standard</td>
-                                        <td>Rp. 1.110.000,-</td>
+                                        <td>Rp {{ number_format(1110000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>ESCAPE - Deluxe</td>
-                                        <td>Rp. 1.160.000,-</td>
+                                        <td>Rp {{ number_format(1160000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>ESCAPE - Suite</td>
-                                        <td>Rp. 1.210.000,-</td>
+                                        <td>Rp {{ number_format(1210000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td rowspan="12">Cottage / Villa</td>
                                         <td>ASRI - Apung (Fan)</td>
-                                        <td>Rp. 1.010.000,-</td>
+                                        <td>Rp {{ number_format(1010000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>ASRI - Cottage (AC)</td>
-                                        <td>Rp. 1.060.000,-</td>
+                                        <td>Rp {{ number_format(1060000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>LUMBUNG</td>
-                                        <td>Rp. 1.160.000,-</td>
+                                        <td>Rp {{ number_format(1160000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>ALCHY - Cendana</td>
-                                        <td>Rp. 1.210.000,-</td>
+                                        <td>Rp {{ number_format(1210000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>ALCHY - Waru</td>
-                                        <td>Rp. 1.360.000,-</td>
+                                        <td>Rp {{ number_format(1360000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>SUNRISE - Standard</td>
-                                        <td>Rp. 1.110.000,-</td>
+                                        <td>Rp {{ number_format(1110000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>SUNRISE - Suite</td>
-                                        <td>Rp. 1.160.000,-</td>
+                                        <td>Rp {{ number_format(1160000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>SUNRISE - Executive</td>
-                                        <td>Rp. 1.210.000,-</td>
+                                        <td>Rp {{ number_format(1210000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>SUNRISE - Master</td>
-                                        <td>Rp. 1.260.000,-</td>
+                                        <td>Rp {{ number_format(1260000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>WISMA APUNG - Fan</td>
-                                        <td>Rp. 1.110.000,-</td>
+                                        <td>Rp {{ number_format(1110000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>WISMA APUNG - AC</td>
-                                        <td>Rp. 1.160.000,-</td>
+                                        <td>Rp {{ number_format(1160000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>MIRABELLE JOGLO</td>
-                                        <td>Rp. 1.160.000,-</td>
+                                        <td>Rp {{ number_format(1160000 + 20000, 0) }}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -147,9 +147,10 @@
                             <p class="text-uppercase" style="font-size: x-large;">Catatan:</p>
                             <ul>
                                 <li>Harga yang tertera untuk 1 orang</li>
-                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp. 150.000,- </li>
+                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp {{ number_format(150000, 0) }} </li>
                                 <li>Pendaftaran peserta minimal untuk 2 orang</li>
                                 <li>Pendaftaran untuk 11 peserta ke atas bisa dilayani private trip</li>
+                                <li>Permintaan private trip untuk reservasi dengan jumlah peserta kurang dari 10 orang akan dikenakan biaya tambahan sebesar Rp {{ number_format(1500000, 0) }} per grup rombongan dan akan mendapatkan full dokumentasi beserta video klip pendek</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>
                                 <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi</li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
@@ -313,14 +314,14 @@
                             <div class="col-12 col-md">
                                 <h4>Exclude:</h4>
                                 <ul>
-                                    <li>HTM Menjangan Resort (Rp. 20.000,-)</li>
-                                    <li>HTM Penangkaran Penyu (Rp. 5.000,-)</li>
+                                    <li>HTM Menjangan Resort (Rp {{ number_format(20000, 0) }})</li>
+                                    <li>HTM Penangkaran Penyu (Rp {{ number_format(5000, 0) }})</li>
                                 </ul>
                             </div>
                             <div class="col-12 col-md">
                                 <h4>Upgrade Tiket:</h4>
                                 <ul>
-                                    <li>VIP (Rp. 25.000,- / one way)</li>
+                                    <li>VIP (Rp {{ number_format(35000, 0) }} / one way)</li>
                                 </ul>
                             </div>
                         </div>
