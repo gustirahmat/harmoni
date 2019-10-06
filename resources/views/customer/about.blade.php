@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="float-right">
-                            <img src="{{ asset('img/logo.png') }}" id="Logo Harmoni Karimunjawa">
+                            <img src="{{ asset('img/logo.png') }}" alt="Logo Harmoni Karimunjawa">
                         </div>
                         <h1>Tentang Kami <span class="sr-only">Harmoni Karimunjawa</span></h1>
                         <p>

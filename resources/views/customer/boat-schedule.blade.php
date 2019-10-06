@@ -39,7 +39,7 @@
                                         <td scope="row">Express Bahari</td>
                                         <td scope="row">Jepara</td>
                                         <td scope="row">09:00</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
+                                        <td scope="row">11:00</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td scope="row">Ferry Siginjai</td>
@@ -51,28 +51,34 @@
                                         <td scope="row" rowspan="2">Rabu</td>
                                         <td scope="row">Express Bahari</td>
                                         <td scope="row">Jepara</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
+                                        <td scope="row">09:00</td>
                                         <td scope="row">11:00</td>
                                     </tr>
                                     <tr>
                                         <td scope="row">Ferry Siginjai</td>
                                         <td scope="row">Jepara</td>
-                                        <td scope="row">07:00</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
+                                        <td scope="row">06:30</td>
+                                        <td scope="row">12:30</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td scope="row">Kamis</td>
+                                        <td scope="row" rowspan="2">Kamis</td>
                                         <td scope="row">Ferry Siginjai</td>
                                         <td scope="row">Jepara</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
-                                        <td scope="row">07:00</td>
+                                        <td scope="row">06:30</td>
+                                        <td scope="row">12:30</td>
                                     </tr>
-                                    <tr>
-                                        <td scope="row" rowspan="4">Jumat</td>
+                                    <tr class="bg-primary text-white">
                                         <td scope="row">Express Bahari</td>
                                         <td scope="row">Jepara</td>
+                                        <td scope="row">12:00</td>
                                         <td scope="row">09:00</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row" rowspan="3">Jumat</td>
+                                        <td scope="row">Express Bahari</td>
+                                        <td scope="row">Jepara</td>
+                                        <td scope="row">09:00 & 13:30</td>
+                                        <td scope="row">09:00</td>
                                     </tr>
                                     <tr>
                                         <td scope="row">Ferry Siginjai</td>
@@ -81,15 +87,9 @@
                                         <td scope="row">12:45</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row">Express Bahari</td>
-                                        <td scope="row">Semarang</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
-                                    </tr>
-                                    <tr>
                                         <td scope="row">KMC Kartini</td>
                                         <td scope="row">Semarang</td>
-                                        <td scope="row" class="bg-danger text-white">OFF</td>
+                                        <td scope="row">09:00</td>
                                         <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
@@ -103,7 +103,7 @@
                                         <td scope="row">Ferry Siginjai</td>
                                         <td scope="row">Jepara</td>
                                         <td scope="row">07:00</td>
-                                        <td scope="row">12:45</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td scope="row">Pelni</td>
@@ -112,30 +112,28 @@
                                         <td scope="row" class="bg-danger text-white">OFF</td>
                                     </tr>
                                     <tr>
-                                        <td scope="row" rowspan="5">Minggu</td>
+                                        <td scope="row" rowspan="4">Minggu</td>
                                         <td scope="row">Express Bahari</td>
                                         <td scope="row">Jepara</td>
-                                        <td scope="row" rowspan="5" class="bg-danger text-white">OFF</td>
-                                        <td scope="row">11:00</td>
+                                        <td scope="row">12:00</td>
+                                        <td scope="row">09:00 & 11:00</td>
                                     </tr>
                                     <tr>
                                         <td scope="row">Ferry Siginjai</td>
                                         <td scope="row">Jepara</td>
-                                        <td scope="row">07:00</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Express Bahari</td>
-                                        <td scope="row">Semarang</td>
                                         <td scope="row" class="bg-danger text-white">OFF</td>
+                                        <td scope="row">07:00</td>
                                     </tr>
                                     <tr>
                                         <td scope="row">KMC Kartini</td>
                                         <td scope="row">Semarang</td>
                                         <td scope="row" class="bg-danger text-white">OFF</td>
+                                        <td scope="row">11:00</td>
                                     </tr>
                                     <tr>
                                         <td scope="row">Pelni</td>
                                         <td scope="row">Semarang</td>
+                                        <td scope="row" class="bg-danger text-white">OFF</td>
                                         <td scope="row">13:00</td>
                                     </tr>
                                 </tbody>

@@ -9,7 +9,7 @@
                         <div class="title m-b-md text-center">
                             Harga Paket 2H1M via Ferry Siginjai Jepara
                         </div>
-                        <p class="lead font-weight-bold text-center">KEBERANGKATAN SENIN - SELASA / RABU - KAMIS / SABTU - MINGGU</p>
+                        <p class="lead font-weight-bold text-center">KEBERANGKATAN SENIN - SELASA / RABU - KAMIS / KAMIS - JUMAT / SABTU - MINGGU</p>
                         <div class="table-responsive">
                             <table class="table table-bordered">
                                 <thead class="font-weight-bold bg-primary text-white text-center text-uppercase">

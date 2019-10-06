@@ -9,7 +9,7 @@
                         <div class="title m-b-md text-center">
                             Harga Paket 4H3M via Ferry Siginjai Jepara
                         </div>
-                        <p class="lead font-weight-bold text-center">KEBERANGKATAN SENIN - KAMIS / SABTU - SELASA</p>
+                        <p class="lead font-weight-bold text-center">KEBERANGKATAN SENIN - KAMIS / KAMIS - MINGGU / SABTU - SELASA</p>
                         <div class="table-responsive">
                             <table class="table table-bordered">
                                 <thead class="font-weight-bold bg-primary text-white text-center text-uppercase">

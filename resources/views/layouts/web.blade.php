@@ -226,7 +226,6 @@
                             <a class="dropdown-item" href="{{ route('2h1m-ferry') }}">Karimunjawa 2H1M via Ferry Jepara <sup><span class="badge badge-secondary">Termurah</span></sup></a>
                             <a class="dropdown-item" href="{{ route('2h2m-pelni') }}">Karimunjawa 2H2M via Pelni Semarang</a>
                             <a class="dropdown-item" href="{{ route('3h2m-ebj') }}">Karimunjawa 3H2M via Express Jepara <sup><span class="badge badge-primary">Terbaik</span></sup></a>
-                            <a class="dropdown-item disabled" href="{{ route('3h2m-ebs') }}" tabindex="-1" aria-disabled="true"> <s>Karimunjawa 3H2M via Express Semarang <sup><span class="badge badge-dark">Tidak tersedia</span></sup></s></a>
                             <a class="dropdown-item" href="{{ route('3h2m-kmc') }}">Karimunjawa 3H2M via KMC Kartini Semarang</a>
                             <a class="dropdown-item" href="{{ route('3h2m-ferry') }}">Karimunjawa 3H2M via Ferry Jepara</a>
                             <a class="dropdown-item" href="{{ route('4h3m-ebj') }}">Karimunjawa 4H3M via Express Jepara</a>
@@ -261,7 +260,7 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-12 col-md border-right">
-                    <img src="{{ asset('img/logo.png') }}" id="Logo Harmoni Karimunjawa">
+                    <img src="{{ asset('img/logo.png') }}" alt="Logo Harmoni Karimunjawa">
                     <small class="d-block mb-3 text-muted">{{ config('app.name') }} &copy; {{ date('Y') }}</small>
                 </div>
                 <div class="col-12 col-md">
@@ -307,12 +306,12 @@
 
             // Navigation active
             $("ul.navbar-nav a").filter(function(){
-                return this.href == location.href.replace(/#.*/, "");
-            }).closest('li').addClass("active");
+                return this.href === location.href.replace(/#.*/, "");
+            }).closest('li').addClass('active');
 
             $("li.dropdown a").filter(function(){
-                return this.href == location.href.replace(/#.*/, "");
-            }).addClass("active");
+                return this.href === location.href.replace(/#.*/, "");
+            }).addClass('active');
 
             var prevScrollpos = window.pageYOffset;
             window.onscroll = function() {
