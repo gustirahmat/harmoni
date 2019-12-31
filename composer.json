@@ -53,8 +53,6 @@
             "@php artisan package:discover"
         ],
         "post-install-cmd": [
-            "@php artisan clear-compiled",
-            "@php artisan page-cache:clear",
             "chmod -R 777 public/"
         ]
     },
