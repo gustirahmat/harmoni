@@ -51,8 +51,10 @@
                 <div class="card-text">
                     <div class="text-center">
                         <div class="title m-b-md">
-                            Selamat Datang di Karimunjawa
+                            Selamat Tahun Baru 2020
                         </div>
+                        Selamat Datang di Karimunjawa!
+                        <br>
                         <b>Taman Nasional Kepulauan Karimunjawa</b> berada di titik koordinat 5°49′LU 110°24′BT﻿ / ﻿5,817°LS 110,4°BT.
                         <br>
                         Pulau dengan luas keseluruhan lebih dari 100.000 Hektar dan di huni hampir 10.000 jiwa ini berada dibawah administrasi Kabupaten Jepara - Jawa Tengah.

@@ -106,8 +106,8 @@
             <!-- Scripts -->
             <script src="{{ asset('js/app.js') }}"></script>
 
-            <script type="text/javascript">
-                $( document ).ready(function() {
+            <script>
+                $(document).ready(function() {
                     // Navigation active
                     $("ul.navbar-nav a").filter(function(){
                         return this.href == location.href.replace(/#.*/, "");

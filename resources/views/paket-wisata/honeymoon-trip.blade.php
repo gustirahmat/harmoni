@@ -41,15 +41,15 @@
                 <video playsinline loop muted autoplay poster="{{ asset('img/LogoLicious_20180609_205814.png') }}" width="100%">
                     <source src="{{ asset('video/Honeymoon Wahyu Vivi Harmoni Karimunjawa.mp4') }}" type="video/mp4">
                 </video>
-                <div class="card" style="background-color: hotpink; color: antiquewhite;">
+                <div class="card" style="background-color: antiquewhite; color: hotpink;">
                     <div class="card-body">
                         <div class="title m-b-md text-center">
                             Harga Paket Honeymoon Trip
                         </div>
-                        <p class="lead font-weight-bold text-center text-uppercase">Start Jepara</p>
+                        <p class="lead font-weight-bold text-center">Start Jepara</p>
                         <div class="table-responsive">
-                            <table class="table table-bordered table-striped table-hover text-center">
-                                <thead class="font-weight-bold text-uppercase" style="background-color: antiquewhite; color: hotpink;">
+                            <table class="table table-bordered table-hover text-center" style="background-color: hotpink; color: antiquewhite;">
+                                <thead class="text-uppercase">
                                     <tr>
                                         <th rowspan="2" class="align-middle">Lokasi Penginapan</th>
                                         <th colspan="3" class="align-middle">Paket Trip</th>
@@ -115,6 +115,48 @@
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
                                 <li>Meeting Point di Pelabuhan Kartini, Jepara</li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="shadow-sm">
+                <div class="card" style="background-color: hotpink; color: antiquewhite;">
+                    <div class="card-body">
+                        <div class="title m-b-md text-center">
+                            Fasilitas Honeymoon Trip
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md">
+                                <h4>Include:</h4>
+                                <ol>
+                                    <li>Tiket Kapal Express Bahari Jepara - Executive</li>
+                                    <li>Transport check-in & check-out</li>
+                                    <li>Makan 3x / 6x / 8x</li>
+                                    <li>Tranport wisata</li>
+                                    <li>Guide Lokal</li>
+                                    <li>Alat snorkeling + life jacket</li>
+                                    <li>Full dokumentasi (DSLR + DRONE + UNDERWATER)</li>
+                                    <li>Biaya sandar perahu</li>
+                                    <li>Air mineral</li>
+                                    <li>Asuransi Penyeberangan</li>
+                                    <li>Perlengkapan P3K</li>
+                                    <li>Video klip durasi 1 menit <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
+                                    <li>Dekorasi kamar <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
+                                    <li>Romantic dinner <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
+                                </ol>
+                            </div>
+                            <div class="col-12 col-md">
+                                <h4>Exclude:</h4>
+                                <ol>
+                                    <li>HTM Menjangan Resort (Rp {{ number_format(20000, 0) }})</li>
+                                    <li>HTM Penangkaran Penyu (Rp {{ number_format(5000, 0) }})</li>
+                                </ol>
+                            </div>
+                            <div class="col-12 col-md">
+                                <h4>Upgrade Tiket / Kapal:</h4>
+                                <ol>
+                                    <li>Express Bahari Jepara - VIP (Rp {{ number_format(110000, 0) }} / one way)</li>
+                                </ol>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -576,48 +618,6 @@
                                 <li>Peserta diharapkan untuk melakukan konfirmasi jadwal kapal H-1 trip karena dapat berubah sewaktu-waktu</li>
                                 <li>Kegiatan yang tidak tertera di itinerary di luar tanggung jawab kami</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <hr class="shadow-sm">
-                <div class="card" style="background-color: hotpink; color: antiquewhite;">
-                    <div class="card-body">
-                        <div class="title m-b-md text-center">
-                            Fasilitas Honeymoon Trip
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-md">
-                                <h4>Include:</h4>
-                                <ol>
-                                    <li>Tiket Kapal Express Bahari Jepara - Executive</li>
-                                    <li>Transport check-in & check-out</li>
-                                    <li>Makan 3x / 6x / 8x</li>
-                                    <li>Tranport wisata</li>
-                                    <li>Guide Lokal</li>
-                                    <li>Alat snorkeling + life jacket</li>
-                                    <li>Full dokumentasi (DSLR + DRONE + UNDERWATER)</li>
-                                    <li>Biaya sandar perahu</li>
-                                    <li>Air mineral</li>
-                                    <li>Asuransi Penyeberangan</li>
-                                    <li>Perlengkapan P3K</li>
-                                    <li>Video klip durasi 1 menit <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
-                                    <li>Dekorasi kamar <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
-                                    <li>Romantic dinner <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
-                                </ol>
-                            </div>
-                            <div class="col-12 col-md">
-                                <h4>Exclude:</h4>
-                                <ol>
-                                    <li>HTM Menjangan Resort (Rp {{ number_format(20000, 0) }})</li>
-                                    <li>HTM Penangkaran Penyu (Rp {{ number_format(5000, 0) }})</li>
-                                </ol>
-                            </div>
-                            <div class="col-12 col-md">
-                                <h4>Upgrade Tiket / Kapal:</h4>
-                                <ol>
-                                    <li>Express Bahari Jepara - VIP (Rp {{ number_format(110000, 0) }} / one way)</li>
-                                </ol>
-                            </div>
                         </div>
                     </div>
                 </div>

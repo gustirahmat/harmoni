@@ -45,32 +45,44 @@
                                     <td>Rp {{ number_format(1360000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
-                                    <td rowspan="5">Hotel Bintang 3</td>
-                                    <td>DSEASON - Superior</td>
+                                    <td rowspan="7">Hotel Bintang 3</td>
+                                    <td>d'SEASON - Superior</td>
                                     <td>Rp {{ number_format(1260000, 0) }}</td>
                                     <td>Rp {{ number_format(1710000, 0) }}</td>
                                     <td>Rp {{ number_format(1910000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
-                                    <td>DSEASON - Bisnis</td>
+                                    <td>d'SEASON - Bisnis</td>
                                     <td>Rp {{ number_format(1310000, 0) }}</td>
                                     <td>Rp {{ number_format(1810000, 0) }}</td>
                                     <td>Rp {{ number_format(2110000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
-                                    <td>DSEASON - Executive</td>
+                                    <td>d'SEASON - Executive</td>
                                     <td>Rp {{ number_format(1360000, 0) }}</td>
                                     <td>Rp {{ number_format(1910000, 0) }}</td>
                                     <td>Rp {{ number_format(2210000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
-                                    <td>JAVA P - Deluxe</td>
+                                    <td>Java Paradise Resort - Standard</td>
+                                    <td>Rp {{ number_format(1460000 - 90000, 0) }}</td>
+                                    <td>Rp {{ number_format(2060000 - 180000, 0) }}</td>
+                                    <td>Rp {{ number_format(2460000 - 270000, 0) }}</td>
+                                </tr>
+                                <tr class="bg-primary text-white">
+                                    <td>Java Paradise Resort - Superior</td>
+                                    <td>Rp {{ number_format(1460000 - 45000, 0) }}</td>
+                                    <td>Rp {{ number_format(2060000 - 90000, 0) }}</td>
+                                    <td>Rp {{ number_format(2460000 - 135000, 0) }}</td>
+                                </tr>
+                                <tr class="bg-primary text-white">
+                                    <td>Java Paradise Resort - Deluxe</td>
                                     <td>Rp {{ number_format(1460000, 0) }}</td>
                                     <td>Rp {{ number_format(2060000, 0) }}</td>
                                     <td>Rp {{ number_format(2460000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
-                                    <td>JAVA P - Executive</td>
+                                    <td>Java Paradise Resort - Executive</td>
                                     <td>Rp {{ number_format(1510000, 0) }}</td>
                                     <td>Rp {{ number_format(2210000, 0) }}</td>
                                     <td>Rp {{ number_format(2760000, 0) }}</td>
@@ -213,11 +225,46 @@
                                 <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp {{ number_format(150000, 0) }} </li>
                                 <li>Harga yang tertera untuk 1 orang</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>
-                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi</li>
+                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi sebesar Rp 200,000 (Tanpa mendapatkan fasilitas)</li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
                                 <li>Pendaftaran untuk 11 peserta ke atas bisa dilayani private trip</li>
                                 <li>Permintaan private trip untuk reservasi dengan jumlah peserta kurang dari 10 orang akan dikenakan biaya tambahan sebesar (Rp {{ number_format(1500000, 0) }} per grup rombongan untuk paket trip 2H1M atau 3H2M, dan Rp {{ number_format(2500000, 0) }} untuk paket trip 4H3M dan akan mendapatkan full dokumentasi beserta video klip pendek)</li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="shadow-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="title m-b-md text-center">
+                            Fasilitas Trip Karimunjawa
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md">
+                                <h4>Include:</h4>
+                                <ul>
+                                    <li>Transport check-in & check-out</li>
+                                    <li>Penginapan (isi 2 - 3 orang)</li>
+                                    <li>Makan 3x / 6x / 8x</li>
+                                    <li>Tranport wisata</li>
+                                    <li>Guide Lokal</li>
+                                    <li>Alat snorkeling + life jacket</li>
+                                    <li>Dokumentasi Wisata Laut dan Wisata Darat</li>
+                                    <li>Dokumentasi Aerial/Drone (kondisional)</li>
+                                    <li>Biaya sandar perahu</li>
+                                    <li>Air mineral</li>
+                                    <li>Asuransi Penyeberangan</li>
+                                    <li>Perlengkapan P3K</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md">
+                                <h4>Exclude:</h4>
+                                <ul>
+                                    <li>Tiket Pesawat Semarang - Karimunjawa PP</li>
+                                    <li>HTM Menjangan Resort (Rp {{ number_format(20000, 0) }})</li>
+                                    <li>HTM Penangkaran Penyu (Rp {{ number_format(5000, 0) }})</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -609,41 +656,6 @@
                                 <li>Destinasi dan waktu tidak mengikat atau bisa berubah menyesuaikan kondisi di lapangan</li>
                                 <li>Kegiatan yang tidak tertera di itinerary di luar tanggung jawab kami</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <hr class="shadow-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="title m-b-md text-center">
-                            Fasilitas Trip Karimunjawa
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-md">
-                                <h4>Include:</h4>
-                                <ul>
-                                    <li>Transport check-in & check-out</li>
-                                    <li>Penginapan (isi 2 - 3 orang)</li>
-                                    <li>Makan 3x / 6x / 8x</li>
-                                    <li>Tranport wisata</li>
-                                    <li>Guide Lokal</li>
-                                    <li>Alat snorkeling + life jacket</li>
-                                    <li>Dokumentasi Wisata Laut dan Wisata Darat</li>
-                                    <li>Dokumentasi Aerial/Drone (kondisional)</li>
-                                    <li>Biaya sandar perahu</li>
-                                    <li>Air mineral</li>
-                                    <li>Asuransi Penyeberangan</li>
-                                    <li>Perlengkapan P3K</li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md">
-                                <h4>Exclude:</h4>
-                                <ul>
-                                    <li>Tiket Pesawat Semarang - Karimunjawa PP</li>
-                                    <li>HTM Menjangan Resort (Rp {{ number_format(20000, 0) }})</li>
-                                    <li>HTM Penangkaran Penyu (Rp {{ number_format(5000, 0) }})</li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>

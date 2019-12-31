@@ -34,24 +34,32 @@
                                         <td>Rp {{ number_format(910000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td rowspan="5">Hotel Bintang 3</td>
-                                        <td>DSEASON - Superior</td>
+                                        <td rowspan="7">Hotel Bintang 3</td>
+                                        <td>d'SEASON - Superior</td>
                                         <td>Rp {{ number_format(1260000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td>DSEASON - Bisnis</td>
+                                        <td>d'SEASON - Bisnis</td>
                                         <td>Rp {{ number_format(1310000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td>DSEASON - Executive</td>
+                                        <td>d'SEASON - Executive</td>
                                         <td>Rp {{ number_format(1360000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td>JAVA P - Deluxe</td>
+                                        <td>Java Paradise Resort - Standard</td>
+                                        <td>Rp {{ number_format(1460000 - 70000, 0) }}</td>
+                                    </tr>
+                                    <tr class="bg-primary text-white">
+                                        <td>Java Paradise Resort - Superior</td>
+                                        <td>Rp {{ number_format(1460000 - 25000, 0) }}</td>
+                                    </tr>
+                                    <tr class="bg-primary text-white">
+                                        <td>Java Paradise Resort - Deluxe</td>
                                         <td>Rp {{ number_format(1460000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td>JAVA P - Executive</td>
+                                        <td>Java Paradise Resort - Executive</td>
                                         <td>Rp {{ number_format(1510000 + 20000, 0) }}</td>
                                     </tr>
                                     <tr>
@@ -152,136 +160,8 @@
                                 <li>Pendaftaran untuk 11 peserta ke atas bisa dilayani private trip</li>
                                 <li>Permintaan private trip untuk reservasi dengan jumlah peserta kurang dari 10 orang akan dikenakan biaya tambahan sebesar Rp {{ number_format(1500000, 0) }} per grup rombongan dan akan mendapatkan full dokumentasi beserta video klip pendek</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>
-                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi</li>
+                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi sebesar Rp 200,000 (Tanpa mendapatkan fasilitas)</li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <hr class="shadow-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="title m-b-md text-center">
-                            Itinerary 2H1M via Express Bahari Jepara
-                        </div>
-                        <p class="lead font-weight-bold text-center text-uppercase">Meeting Point di Pelabuhan</p>
-                        <div class="table-responsive">
-                            <table class="table table-bordered">
-                                <thead class="font-weight-bold bg-primary text-white text-center text-uppercase">
-                                    <tr>
-                                        <th>Hari</th>
-                                        <th>Waktu</th>
-                                        <th>Aktivitas</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td rowspan="15">Pertama</td>
-                                        <td rowspan="3">08:00 - 09:00</td>
-                                        <td>Pembagian tiket kapal</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Boarding tiket</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Masuk kapal</td>
-                                    </tr>
-                                    <tr>
-                                        <td>09:00 - 11:00</td>
-                                        <td>Penyeberangan menuju Karimunjawa</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="5">11:00 - 13:30</td>
-                                        <td>Penjemputan menggunakan mobil/motor</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Check-in penginapan</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Makan siang (disediakan)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Istirahat dan persiapan Wisata Laut</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Menuju Pelabuhan Wisata</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="4">13:30 - 18:00</td>
-                                        <td class="bg-primary text-white font-italic">
-                                            Wisata laut menggunakan perahu menuju
-                                            <div class="bounce float-right">
-                                                <b style="font-size: larger">&downarrow;&downarrow;</b>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Snorkeling pertama di spot Maer</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Pantai Tanjung Gelam</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Kembali ke penginapan</td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">19:00 - selesai</td>
-                                        <td>Makan malam (disediakan)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Acara bebas</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="3" class="bg-primary"></td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="10">Kedua</td>
-                                        <td rowspan="9">07:00 - 11:00</td>
-                                        <td>Packing</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sarapan (disediakan)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Check-out penginapan</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-primary text-white font-italic">
-                                            Wisata Darat menggunakan mobil/motor menuju
-                                            <div class="bounce float-right">
-                                                <b style="font-size: larger">&downarrow;&downarrow;</b>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Bukit Love</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Menuju pelabuhan Penyeberangan</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Pembagian tiket kapal</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Boarding tiket</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Masuk kapal</td>
-                                    </tr>
-                                    <tr>
-                                        <td>11:00 - 13:00</td>
-                                        <td>Penyeberangan menuju Jepara</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="font-weight-bold font-italic text-danger">
-                            <p class="text-uppercase" style="font-size: x-large;">Catatan:</p>
-                            <ul>
-                                <li>Peserta diharuskan tiba di pelabuhan 90 menit sebelum kapal berangkat</li>
-                                <li>Destinasi dan waktu tidak mengikat atau bisa berubah menyesuaikan kondisi di lapangan</li>
-                                <li>Peserta diharapkan untuk melakukan konfirmasi jadwal kapal H-1 trip karena dapat berubah sewaktu-waktu</li>
-                                <li>Kegiatan yang tidak tertera di itinerary di luar tanggung jawab kami</li>
                             </ul>
                         </div>
                     </div>
@@ -324,6 +204,134 @@
                                     <li>VIP (Rp {{ number_format(35000, 0) }} / one way)</li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="shadow-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="title m-b-md text-center">
+                            Itinerary 2H1M via Express Bahari Jepara
+                        </div>
+                        <p class="lead font-weight-bold text-center text-uppercase">Meeting Point di Pelabuhan</p>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead class="font-weight-bold bg-primary text-white text-center text-uppercase">
+                                <tr>
+                                    <th>Hari</th>
+                                    <th>Waktu</th>
+                                    <th>Aktivitas</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td rowspan="15">Pertama</td>
+                                    <td rowspan="3">08:00 - 09:00</td>
+                                    <td>Pembagian tiket kapal</td>
+                                </tr>
+                                <tr>
+                                    <td>Boarding tiket</td>
+                                </tr>
+                                <tr>
+                                    <td>Masuk kapal</td>
+                                </tr>
+                                <tr>
+                                    <td>09:00 - 11:00</td>
+                                    <td>Penyeberangan menuju Karimunjawa</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="5">11:00 - 13:30</td>
+                                    <td>Penjemputan menggunakan mobil/motor</td>
+                                </tr>
+                                <tr>
+                                    <td>Check-in penginapan</td>
+                                </tr>
+                                <tr>
+                                    <td>Makan siang (disediakan)</td>
+                                </tr>
+                                <tr>
+                                    <td>Istirahat dan persiapan Wisata Laut</td>
+                                </tr>
+                                <tr>
+                                    <td>Menuju Pelabuhan Wisata</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="4">13:30 - 18:00</td>
+                                    <td class="bg-primary text-white font-italic">
+                                        Wisata laut menggunakan perahu menuju
+                                        <div class="bounce float-right">
+                                            <b style="font-size: larger">&downarrow;&downarrow;</b>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Snorkeling pertama di spot Maer</td>
+                                </tr>
+                                <tr>
+                                    <td>Pantai Tanjung Gelam</td>
+                                </tr>
+                                <tr>
+                                    <td>Kembali ke penginapan</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">19:00 - selesai</td>
+                                    <td>Makan malam (disediakan)</td>
+                                </tr>
+                                <tr>
+                                    <td>Acara bebas</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="bg-primary"></td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="10">Kedua</td>
+                                    <td rowspan="9">07:00 - 11:00</td>
+                                    <td>Packing</td>
+                                </tr>
+                                <tr>
+                                    <td>Sarapan (disediakan)</td>
+                                </tr>
+                                <tr>
+                                    <td>Check-out penginapan</td>
+                                </tr>
+                                <tr>
+                                    <td class="bg-primary text-white font-italic">
+                                        Wisata Darat menggunakan mobil/motor menuju
+                                        <div class="bounce float-right">
+                                            <b style="font-size: larger">&downarrow;&downarrow;</b>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Bukit Love</td>
+                                </tr>
+                                <tr>
+                                    <td>Menuju pelabuhan Penyeberangan</td>
+                                </tr>
+                                <tr>
+                                    <td>Pembagian tiket kapal</td>
+                                </tr>
+                                <tr>
+                                    <td>Boarding tiket</td>
+                                </tr>
+                                <tr>
+                                    <td>Masuk kapal</td>
+                                </tr>
+                                <tr>
+                                    <td>11:00 - 13:00</td>
+                                    <td>Penyeberangan menuju Jepara</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="font-weight-bold font-italic text-danger">
+                            <p class="text-uppercase" style="font-size: x-large;">Catatan:</p>
+                            <ul>
+                                <li>Peserta diharuskan tiba di pelabuhan 90 menit sebelum kapal berangkat</li>
+                                <li>Destinasi dan waktu tidak mengikat atau bisa berubah menyesuaikan kondisi di lapangan</li>
+                                <li>Peserta diharapkan untuk melakukan konfirmasi jadwal kapal H-1 trip karena dapat berubah sewaktu-waktu</li>
+                                <li>Kegiatan yang tidak tertera di itinerary di luar tanggung jawab kami</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -48,36 +48,50 @@
                                         <td>Rp {{ number_format(1200000 + 35000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td rowspan="5">Hotel Bintang 3</td>
-                                        <td>DSEASON - Superior</td>
+                                        <td rowspan="7">Hotel Bintang 3</td>
+                                        <td>d'SEASON - Superior</td>
                                         <td>Rp {{ number_format(1100000 + 35000, 0) }}</td>
                                         <td>Rp {{ number_format(1150000, 0) }}</td>
                                         <td>Rp {{ number_format(1550000 + 35000, 0) }}</td>
                                         <td>Rp {{ number_format(1750000 + 35000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td>DSEASON - Bisnis</td>
+                                        <td>d'SEASON - Bisnis</td>
                                         <td>Rp {{ number_format(1150000 + 35000, 0) }}</td>
                                         <td>Rp {{ number_format(1200000, 0) }}</td>
                                         <td>Rp {{ number_format(1650000 + 35000, 0) }}</td>
                                         <td>Rp {{ number_format(1950000 + 35000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td>DSEASON - Executive</td>
+                                        <td>d'SEASON - Executive</td>
                                         <td>Rp {{ number_format(1200000 + 35000, 0) }}</td>
                                         <td>Rp {{ number_format(1250000, 0) }}</td>
                                         <td>Rp {{ number_format(1750000 + 35000, 0) }}</td>
                                         <td>Rp {{ number_format(2050000 + 35000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td>JAVA P - Deluxe</td>
+                                        <td>Java Paradise Resort - Standard</td>
+                                        <td>Rp {{ number_format(1300000 - 55000, 0) }}</td>
+                                        <td>Rp {{ number_format(1350000 - 90000, 0) }}</td>
+                                        <td>Rp {{ number_format(1900000 - 145000, 0) }}</td>
+                                        <td>Rp {{ number_format(2300000 - 235000, 0) }}</td>
+                                    </tr>
+                                    <tr class="bg-primary text-white">
+                                        <td>Java Paradise Resort - Superior</td>
+                                        <td>Rp {{ number_format(1300000 - 10000, 0) }}</td>
+                                        <td>Rp {{ number_format(1350000 - 45000, 0) }}</td>
+                                        <td>Rp {{ number_format(1900000 - 55000, 0) }}</td>
+                                        <td>Rp {{ number_format(2300000 - 100000, 0) }}</td>
+                                    </tr>
+                                    <tr class="bg-primary text-white">
+                                        <td>Java Paradise Resort - Deluxe</td>
                                         <td>Rp {{ number_format(1300000 + 35000, 0) }}</td>
                                         <td>Rp {{ number_format(1350000, 0) }}</td>
                                         <td>Rp {{ number_format(1900000 + 35000, 0) }}</td>
                                         <td>Rp {{ number_format(2300000 + 35000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td>JAVA P - Executive</td>
+                                        <td>Java Paradise Resort - Executive</td>
                                         <td>Rp {{ number_format(1350000 + 35000, 0) }}</td>
                                         <td>Rp {{ number_format(1400000, 0) }}</td>
                                         <td>Rp {{ number_format(2050000 + 35000, 0) }}</td>
@@ -242,7 +256,7 @@
                                 <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp {{ number_format(150000, 0) }} </li>
                                 <li>Harga yang tertera untuk 1 orang</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>
-                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi</li>
+                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi sebesar Rp 200,000 (Tanpa mendapatkan fasilitas)</li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
                                 <li>Pendaftaran untuk 11 peserta ke atas bisa dilayani private trip</li>
                                 <li>Permintaan private trip untuk reservasi dengan jumlah peserta kurang dari 10 orang akan dikenakan biaya tambahan sebesar (Rp {{ number_format(1500000, 0) }} per grup rombongan untuk paket trip 2H1M atau 3H2M, dan Rp {{ number_format(2500000, 0) }} untuk paket trip 4H3M dan akan mendapatkan full dokumentasi beserta video klip pendek)</li>
