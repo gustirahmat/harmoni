@@ -1,5 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,7 +14,7 @@
 |
 */
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 Route::namespace('Admin')->group(function () {
 	// Controllers Within The "App\Http\Controllers\Admin" Namespace
@@ -56,3 +59,6 @@ Route::namespace('Customer')->group(function () {
 });
 
 Route::get('/sitemap.xml', 'SitemapController@index');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

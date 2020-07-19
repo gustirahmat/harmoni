@@ -12,7 +12,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner">
             <!-- Slide One - Set the background image for this slide in the line below -->
             <div class="carousel-item active" style="background-image: url('{{ asset('img/LogoLicious_20180609_205447.png') }}')">
                 <div class="carousel-caption d-none d-md-block">
@@ -50,9 +50,14 @@
             <div class="card-body">
                 <div class="card-text">
                     <div class="text-center">
-                        <div class="title m-b-md">
-                            Selamat Tahun Baru 2020
+                        <div class="title m-b-md text-danger">
+                            Karimunjawa Masih Ditutup
                         </div>
+                        Dalam keadaan pandemi Covid-19, saat ini seluruh kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> juga dihentikan sampai batas waktu yang belum dapat ditentukan. Terkait harga paket yang saat ini tertera merupakan harga yang berlaku saat sebelum pandemi ditetapkan.
+                        Ketika nanti kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> diizinkan untuk dibuka kembali, besar kemungkinan harga paket wisata kami mengalami perubahan guna menyesuaikan kondisi yang akan diterapkan di lapangan.
+                        <br>
+                        Demikian informasi yang dapat kami sampaikan. Terima kasih dan harap maklum.
+                        <br><br>
                         Selamat Datang di Karimunjawa!
                         <br>
                         <b>Taman Nasional Kepulauan Karimunjawa</b> berada di titik koordinat 5°49′LU 110°24′BT﻿ / ﻿5,817°LS 110,4°BT.
@@ -76,9 +81,9 @@
             <div class="title m-b-md text-center">
                 Pilih Paketnya!
             </div>
-            <p align="center" class="lead">Start Semarang / Jepara</p>
+            <p class="lead text-center">Start Semarang / Jepara</p>
             <div class="bounce">
-                <h1 align="center">&DoubleDownArrow;&DoubleDownArrow;&DoubleDownArrow;&DoubleDownArrow;&DoubleDownArrow;</h1>
+                <h1 class="text-center">&DoubleDownArrow;&DoubleDownArrow;&DoubleDownArrow;&DoubleDownArrow;&DoubleDownArrow;</h1>
             </div>
         </div>
 
@@ -220,6 +225,6 @@
 
         <hr class="shadow-sm my-3">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-de22a92a-0b80-4876-ba1b-7471b8c33858"></div>
+        <div class="{{ env('ELFSIGHT_APIKEY') }}"></div>
     </div>
 @endsection

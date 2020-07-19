@@ -3,6 +3,23 @@
 @section('content')
     <div class="container py-5 my-5">
         <div class="row justify-content-center">
+            <div class="col-md-12 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="text-center">
+                                <div class="title m-b-md text-danger">
+                                    Karimunjawa Masih Ditutup
+                                </div>
+                                Dalam keadaan pandemi Covid-19, saat ini seluruh kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> juga dihentikan sampai batas waktu yang belum dapat ditentukan. Terkait harga paket yang saat ini tertera merupakan harga yang berlaku saat sebelum pandemi ditetapkan.
+                                Ketika nanti kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> diizinkan untuk dibuka kembali, besar kemungkinan harga paket wisata kami mengalami perubahan guna menyesuaikan kondisi yang akan diterapkan di lapangan.
+                                <br>
+                                Demikian informasi yang dapat kami sampaikan. Terima kasih dan harap maklum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
@@ -147,10 +164,10 @@
                         <hr>
                         <div>
                             <h4>Lokasi Pelabuhan Kartini Jepara</h4>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1014728.7207619788!2d110.1351053!3d-6.548926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e711eee195348e5%3A0xe254700a5bd4fa0d!2sKartini+Jepara+Port!5e0!3m2!1sen!2sid!4v1551534229355" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe title="Lokasi Pelabuhan Kartini Jepara" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1014728.7207619788!2d110.1351053!3d-6.548926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e711eee195348e5%3A0xe254700a5bd4fa0d!2sKartini+Jepara+Port!5e0!3m2!1sen!2sid!4v1551534229355" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                             <hr>
                             <h4>Lokasi Pelabuhan Tanjung Mas Semarang</h4>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.526662624531!2d110.42183201477313!3d-6.947028894980952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70f49923fd2e61%3A0xfa6ae037b9996be8!2sTerminal+Penumpang+Tanjung+Emas+Semarang!5e0!3m2!1sen!2sid!4v1551534173255" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe title="Lokasi Pelabuhan Tanjung Mas Semarang" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.526662624531!2d110.42183201477313!3d-6.947028894980952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70f49923fd2e61%3A0xfa6ae037b9996be8!2sTerminal+Penumpang+Tanjung+Emas+Semarang!5e0!3m2!1sen!2sid!4v1551534173255" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

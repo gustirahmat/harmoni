@@ -41,6 +41,25 @@
                 <video playsinline loop muted autoplay poster="{{ asset('img/LogoLicious_20180609_205814.png') }}" width="100%">
                     <source src="{{ asset('video/Honeymoon Wahyu Vivi Harmoni Karimunjawa.mp4') }}" type="video/mp4">
                 </video>
+            </div>
+            <div class="col-md-12 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="text-center">
+                                <div class="title m-b-md text-danger">
+                                    Karimunjawa Masih Ditutup
+                                </div>
+                                Dalam keadaan pandemi Covid-19, saat ini seluruh kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> juga dihentikan sampai batas waktu yang belum dapat ditentukan. Terkait harga paket yang saat ini tertera merupakan harga yang berlaku saat sebelum pandemi ditetapkan.
+                                Ketika nanti kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> diizinkan untuk dibuka kembali, besar kemungkinan harga paket wisata kami mengalami perubahan guna menyesuaikan kondisi yang akan diterapkan di lapangan.
+                                <br>
+                                Demikian informasi yang dapat kami sampaikan. Terima kasih dan harap maklum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
                 <div class="card" style="background-color: antiquewhite; color: hotpink;">
                     <div class="card-body">
                         <div class="title m-b-md text-center">
@@ -50,59 +69,59 @@
                         <div class="table-responsive">
                             <table class="table table-bordered table-hover text-center" style="background-color: hotpink; color: antiquewhite;">
                                 <thead class="text-uppercase">
-                                    <tr>
-                                        <th rowspan="2" class="align-middle">Lokasi Penginapan</th>
-                                        <th colspan="3" class="align-middle">Paket Trip</th>
-                                    </tr>
-                                    <tr>
-                                        <th class="align-middle">2H1M</th>
-                                        <th class="align-middle">3H2M</th>
-                                        <th class="align-middle">4H3M</th>
-                                    </tr>
+                                <tr>
+                                    <th rowspan="2" class="align-middle">Lokasi Penginapan</th>
+                                    <th colspan="3" class="align-middle">Paket Trip</th>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle">2H1M</th>
+                                    <th class="align-middle">3H2M</th>
+                                    <th class="align-middle">4H3M</th>
+                                </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>d'SEASON Hotel - Bisnis</td>
-                                        <td class="price">Rp {{ number_format(4865000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(5700000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(7270000, 0) }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>d'SEASON Hotel - Executive</td>
-                                        <td class="price">Rp {{ number_format(4965000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(5900000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(7570000, 0) }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Java Paradise Resort - Standard</td>
-                                        <td class="price">Rp {{ number_format(5119000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(5910000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(7526000, 0) }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Java Paradise Resort - Superior</td>
-                                        <td class="price">Rp {{ number_format(5211000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(6090000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(7796000, 0) }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Java Paradise Resort - Deluxe</td>
-                                        <td class="price">Rp {{ number_format(5301000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(6270000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(8066000, 0) }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Java Paradise Resort - Executive</td>
-                                        <td class="price">Rp {{ number_format(5345000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(6360000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(8200000, 0) }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Java Paradise Resort - Suite</td>
-                                        <td class="price">Rp {{ number_format(7685000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(11140000, 0) }}</td>
-                                        <td class="price">Rp {{ number_format(15220000, 0) }}</td>
-                                    </tr>
+                                <tr>
+                                    <th>d'SEASON Hotel - Bisnis</th>
+                                    <td class="price">Rp {{ number_format(4865000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5700000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7270000, 0) }}</td>
+                                </tr>
+                                <tr>
+                                    <th>d'SEASON Hotel - Executive</th>
+                                    <td class="price">Rp {{ number_format(4965000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5900000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7570000, 0) }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Java Paradise Resort - Standard</th>
+                                    <td class="price">Rp {{ number_format(5119000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5910000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7526000, 0) }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Java Paradise Resort - Superior</th>
+                                    <td class="price">Rp {{ number_format(5211000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(6090000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7796000, 0) }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Java Paradise Resort - Deluxe</th>
+                                    <td class="price">Rp {{ number_format(5301000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(6270000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(8066000, 0) }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Java Paradise Resort - Executive</th>
+                                    <td class="price">Rp {{ number_format(5345000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(6360000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(8200000, 0) }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Java Paradise Resort - Suite</th>
+                                    <td class="price">Rp {{ number_format(7685000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(11140000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(15220000, 0) }}</td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>

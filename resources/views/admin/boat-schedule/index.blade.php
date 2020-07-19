@@ -34,7 +34,7 @@
                                 <tbody>
                                 @foreach($boatschedule as $item)
                                     <tr>
-                                        <td>{{ $loop->iteration or $item->id }}</td>
+                                        <td>{{ $loop->iteration ?? $item->id }}</td>
                                         <td>{{ $item->hari }}</td><td>{{ $item->nama_kapal }}</td><td>{{ $item->lokasi_pelabuhan }}</td>
                                         <td>
                                             <a href="{{ url('/admin/boat-schedule/' . $item->id) }}" title="View Boat Schedule"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>

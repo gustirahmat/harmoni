@@ -34,7 +34,7 @@
                                 <tbody>
                                 @foreach($opentripschedules as $item)
                                     <tr>
-                                        <td>{{ $loop->iteration or $item->id }}</td>
+                                        <td>{{ $loop->iteration ?? $item->id }}</td>
                                         <td>{{ $item->nama_trip }}</td><td>{{ $item->kuota_trip }}</td><td>{{ $item->tanggal_trip }}</td>
                                         <td>
                                             <a href="{{ url('/admin/open-trip-schedules/' . $item->id) }}" title="View OpenTripSchedule"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
