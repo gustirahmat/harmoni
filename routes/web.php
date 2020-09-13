@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
+//use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,23 +14,23 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Auth::routes(['verify' => true]);
+//Auth::routes(['verify' => true]);
 
-Route::namespace('Admin')->group(function () {
-	// Controllers Within The "App\Http\Controllers\Admin" Namespace
-	Route::get('home', 'AdministratorController@index')->name('admin');
-
-	Route::prefix('admin')->group(function () {
-		Route::get('/', 'AdministratorController@index')->name('admin');
-		Route::resource('table', 'TableGeneratorController');
-		Route::resource('boat-schedules', 'BoatScheduleController')->names([
-			'create' => 'boat-schedules.create'
-		]);
-		Route::resource('open-trip-schedules', 'OpenTripSchedulesController');
-		Route::resource('testimony', 'TestimonyController');
-		Route::resource('tour-package', 'TourPackageController');
-	});
-});
+//Route::namespace('Admin')->group(function () {
+//	// Controllers Within The "App\Http\Controllers\Admin" Namespace
+//	Route::get('home', 'AdministratorController@index')->name('admin');
+//
+//	Route::prefix('admin')->group(function () {
+//		Route::get('/', 'AdministratorController@index')->name('admin');
+//		Route::resource('table', 'TableGeneratorController');
+//		Route::resource('boat-schedules', 'BoatScheduleController')->names([
+//			'create' => 'boat-schedules.create'
+//		]);
+//		Route::resource('open-trip-schedules', 'OpenTripSchedulesController');
+//		Route::resource('testimony', 'TestimonyController');
+//		Route::resource('tour-package', 'TourPackageController');
+//	});
+//});
 
 Route::namespace('Customer')->group(function () {
 	// Controllers Within The "App\Http\Controllers\Customer" Namespace
@@ -59,6 +59,3 @@ Route::namespace('Customer')->group(function () {
 });
 
 Route::get('/sitemap.xml', 'SitemapController@index');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
