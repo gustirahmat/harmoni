@@ -6,6 +6,7 @@
     "type": "project",
     "require": {
         "php": "^7.4",
+        "ext-sqreen": "^1.10",
         "appzcoder/crud-generator": "^3.0",
         "bugsnag/bugsnag-laravel": "^2.0",
         "facade/ignition": "^1.0",
@@ -60,7 +61,11 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.4.5",
+            "ext-sqreen": "1.10.0"
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
