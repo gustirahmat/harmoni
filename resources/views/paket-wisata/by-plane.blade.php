@@ -45,192 +45,192 @@
                                 <tr>
                                     <td rowspan="3">Homestay</td>
                                     <td>Fan Kamar Mandi Luar</td>
-                                    <td>Rp {{ number_format(760000, 0) }}</td>
-                                    <td>Rp {{ number_format(910000, 0) }}</td>
-                                    <td>Rp {{ number_format(1035000, 0) }}</td>
+                                    <td>Rp {{ number_format(760000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(910000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1035000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>Fan Kamar Mandi Dalam</td>
-                                    <td>Rp {{ number_format(785000, 0) }}</td>
-                                    <td>Rp {{ number_format(960000, 0) }}</td>
-                                    <td>Rp {{ number_format(1110000, 0) }}</td>
+                                    <td>Rp {{ number_format(785000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(960000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>AC Kamar Mandi Dalam</td>
-                                    <td>Rp {{ number_format(910000, 0) }}</td>
-                                    <td>Rp {{ number_format(1160000, 0) }}</td>
-                                    <td>Rp {{ number_format(1360000, 0) }}</td>
+                                    <td>Rp {{ number_format(910000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1360000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td rowspan="7">Hotel Bintang 3</td>
                                     <td>d'SEASON - Superior</td>
-                                    <td>Rp {{ number_format(1260000, 0) }}</td>
-                                    <td>Rp {{ number_format(1710000, 0) }}</td>
-                                    <td>Rp {{ number_format(1910000, 0) }}</td>
+                                    <td>Rp {{ number_format(1260000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1710000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1910000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>d'SEASON - Bisnis</td>
-                                    <td>Rp {{ number_format(1310000, 0) }}</td>
-                                    <td>Rp {{ number_format(1810000, 0) }}</td>
-                                    <td>Rp {{ number_format(2110000, 0) }}</td>
+                                    <td>Rp {{ number_format(1310000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1810000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2110000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>d'SEASON - Executive</td>
-                                    <td>Rp {{ number_format(1360000, 0) }}</td>
-                                    <td>Rp {{ number_format(1910000, 0) }}</td>
-                                    <td>Rp {{ number_format(2210000, 0) }}</td>
+                                    <td>Rp {{ number_format(1360000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1910000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2210000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>Java Paradise Resort - Standard</td>
-                                    <td>Rp {{ number_format(1460000 - 90000, 0) }}</td>
-                                    <td>Rp {{ number_format(2060000 - 180000, 0) }}</td>
-                                    <td>Rp {{ number_format(2460000 - 270000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 - 90000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2060000 - 180000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2460000 - 270000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>Java Paradise Resort - Superior</td>
-                                    <td>Rp {{ number_format(1460000 - 45000, 0) }}</td>
-                                    <td>Rp {{ number_format(2060000 - 90000, 0) }}</td>
-                                    <td>Rp {{ number_format(2460000 - 135000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 - 45000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2060000 - 90000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2460000 - 135000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>Java Paradise Resort - Deluxe</td>
-                                    <td>Rp {{ number_format(1460000, 0) }}</td>
-                                    <td>Rp {{ number_format(2060000, 0) }}</td>
-                                    <td>Rp {{ number_format(2460000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2060000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2460000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>Java Paradise Resort - Executive</td>
-                                    <td>Rp {{ number_format(1510000, 0) }}</td>
-                                    <td>Rp {{ number_format(2210000, 0) }}</td>
-                                    <td>Rp {{ number_format(2760000, 0) }}</td>
+                                    <td>Rp {{ number_format(1510000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2210000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2760000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td rowspan="9">Hotel Standard / Melati</td>
                                     <td>PURI Karimun</td>
-                                    <td>Rp {{ number_format(1110000, 0) }}</td>
-                                    <td>Rp {{ number_format(1460000, 0) }}</td>
-                                    <td>Rp {{ number_format(1660000, 0) }}</td>
+                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1660000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>NEW OCEAN - Standard</td>
-                                    <td>Rp {{ number_format(1110000, 0) }}</td>
-                                    <td>Rp {{ number_format(1460000, 0) }}</td>
-                                    <td>Rp {{ number_format(1660000, 0) }}</td>
+                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1660000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>NEW OCEAN - Suite</td>
-                                    <td>Rp {{ number_format(1160000, 0) }}</td>
-                                    <td>Rp {{ number_format(1510000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000, 0) }}</td>
+                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1510000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>THE KELAPA - Standard</td>
-                                    <td>Rp {{ number_format(1110000, 0) }}</td>
-                                    <td>Rp {{ number_format(1460000, 0) }}</td>
-                                    <td>Rp {{ number_format(1660000, 0) }}</td>
+                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1660000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>THE KELAPA - Suite</td>
-                                    <td>Rp {{ number_format(1260000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000, 0) }}</td>
-                                    <td>Rp {{ number_format(2160000, 0) }}</td>
+                                    <td>Rp {{ number_format(1260000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2160000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>MANGROVE INN</td>
-                                    <td>Rp {{ number_format(1110000, 0) }}</td>
-                                    <td>Rp {{ number_format(1460000, 0) }}</td>
-                                    <td>Rp {{ number_format(1660000, 0) }}</td>
+                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1660000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>ESCAPE - Standard</td>
-                                    <td>Rp {{ number_format(1110000, 0) }}</td>
-                                    <td>Rp {{ number_format(1410000, 0) }}</td>
-                                    <td>Rp {{ number_format(1660000, 0) }}</td>
+                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1410000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1660000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>ESCAPE - Deluxe</td>
-                                    <td>Rp {{ number_format(1160000, 0) }}</td>
-                                    <td>Rp {{ number_format(1460000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000, 0) }}</td>
+                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <td>ESCAPE - Suite</td>
-                                    <td>Rp {{ number_format(1210000, 0) }}</td>
-                                    <td>Rp {{ number_format(1510000, 0) }}</td>
-                                    <td>Rp {{ number_format(1860000, 0) }}</td>
+                                    <td>Rp {{ number_format(1210000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1510000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1860000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td rowspan="12">Cottage / Villa</td>
                                     <td>ASRI - Apung (Fan)</td>
-                                    <td>Rp {{ number_format(1010000, 0) }}</td>
-                                    <td>Rp {{ number_format(1360000, 0) }}</td>
-                                    <td>Rp {{ number_format(1560000, 0) }}</td>
+                                    <td>Rp {{ number_format(1010000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1360000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1560000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>ASRI - Cottage (AC)</td>
-                                    <td>Rp {{ number_format(1060000, 0) }}</td>
-                                    <td>Rp {{ number_format(1460000, 0) }}</td>
-                                    <td>Rp {{ number_format(1660000, 0) }}</td>
+                                    <td>Rp {{ number_format(1060000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1660000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>LUMBUNG</td>
-                                    <td>Rp {{ number_format(1160000, 0) }}</td>
-                                    <td>Rp {{ number_format(1510000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000, 0) }}</td>
+                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1510000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>ALCHY - Cendana</td>
-                                    <td>Rp {{ number_format(1210000, 0) }}</td>
-                                    <td>Rp {{ number_format(1610000, 0) }}</td>
-                                    <td>Rp {{ number_format(1910000, 0) }}</td>
+                                    <td>Rp {{ number_format(1210000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1610000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1910000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>ALCHY - Waru</td>
-                                    <td>Rp {{ number_format(1360000, 0) }}</td>
-                                    <td>Rp {{ number_format(1810000, 0) }}</td>
-                                    <td>Rp {{ number_format(2160000, 0) }}</td>
+                                    <td>Rp {{ number_format(1360000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1810000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2160000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>SUNRISE - Standard</td>
-                                    <td>Rp {{ number_format(1110000, 0) }}</td>
-                                    <td>Rp {{ number_format(1460000, 0) }}</td>
-                                    <td>Rp {{ number_format(1610000, 0) }}</td>
+                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1610000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>SUNRISE - Suite</td>
-                                    <td>Rp {{ number_format(1160000, 0) }}</td>
-                                    <td>Rp {{ number_format(1560000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000, 0) }}</td>
+                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1560000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>SUNRISE - Executive</td>
-                                    <td>Rp {{ number_format(1210000, 0) }}</td>
-                                    <td>Rp {{ number_format(1610000, 0) }}</td>
-                                    <td>Rp {{ number_format(1860000, 0) }}</td>
+                                    <td>Rp {{ number_format(1210000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1610000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1860000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>SUNRISE - Master</td>
-                                    <td>Rp {{ number_format(1260000, 0) }}</td>
-                                    <td>Rp {{ number_format(1710000, 0) }}</td>
-                                    <td>Rp {{ number_format(2060000, 0) }}</td>
+                                    <td>Rp {{ number_format(1260000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1710000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2060000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>WISMA APUNG - Fan</td>
-                                    <td>Rp {{ number_format(1110000, 0) }}</td>
-                                    <td>Rp {{ number_format(1410000, 0) }}</td>
-                                    <td>Rp {{ number_format(1610000, 0) }}</td>
+                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1410000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1610000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>WISMA APUNG - AC</td>
-                                    <td>Rp {{ number_format(1160000, 0) }}</td>
-                                    <td>Rp {{ number_format(1560000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000, 0) }}</td>
+                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1560000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>MIRABELLE JOGLO</td>
-                                    <td>Rp {{ number_format(1160000, 0) }}</td>
-                                    <td>Rp {{ number_format(1510000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000, 0) }}</td>
+                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1510000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -242,7 +242,7 @@
                                 <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp {{ number_format(150000, 0) }} </li>
                                 <li>Harga yang tertera untuk 1 orang</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>
-                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi sebesar Rp 200,000 (Tanpa mendapatkan fasilitas)</li>
+                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi sebesar Rp {{ number_format(200000, 0) }} (Tanpa mendapatkan fasilitas)</li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
                                 <li>Pendaftaran untuk 11 peserta ke atas bisa dilayani private trip</li>
                                 <li>Permintaan private trip untuk reservasi dengan jumlah peserta kurang dari 10 orang akan dikenakan biaya tambahan sebesar (Rp {{ number_format(1500000, 0) }} per grup rombongan untuk paket trip 2H1M atau 3H2M, dan Rp {{ number_format(2500000, 0) }} untuk paket trip 4H3M dan akan mendapatkan full dokumentasi beserta video klip pendek)</li>

@@ -43,6 +43,7 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel=preload href="{{ config('app.url', 'https://www.harmonikarimunjawa.com') }}">
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
@@ -170,7 +171,7 @@
         }
     </style>
 
-    @yield('css')
+    @stack('css')
 
     <!-- Scripts -->
     <script type="application/javascript">

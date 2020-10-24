@@ -40,130 +40,130 @@
                                     <tr>
                                         <td rowspan="3">Homestay</td>
                                         <td>Fan Kamar Mandi Luar</td>
-                                        <td>Rp {{ number_format(875000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(875000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>Fan Kamar Mandi Dalam</td>
-                                        <td>Rp {{ number_format(950000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(950000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>AC Kamar Mandi Dalam</td>
-                                        <td>Rp {{ number_format(1200000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1200000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td rowspan="7">Hotel Bintang 3</td>
                                         <td>d'SEASON - Superior</td>
-                                        <td>Rp {{ number_format(1750000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1750000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>d'SEASON - Bisnis</td>
-                                        <td>Rp {{ number_format(1950000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1950000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>d'SEASON - Executive</td>
-                                        <td>Rp {{ number_format(2050000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(2050000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>Java Paradise Resort - Standard</td>
-                                        <td>Rp {{ number_format(2460000 - 235000, 0) }}</td>
+                                        <td>Rp {{ number_format(2460000 - 235000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>Java Paradise Resort - Superior</td>
-                                        <td>Rp {{ number_format(2460000 - 100000, 0) }}</td>
+                                        <td>Rp {{ number_format(2460000 - 100000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>Java Paradise Resort - Deluxe</td>
-                                        <td>Rp {{ number_format(2300000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(2300000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>Java Paradise Resort - Executive</td>
-                                        <td>Rp {{ number_format(2500000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(2500000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="9">Hotel Standard / Melati</td>
                                         <td>PURI Karimun</td>
-                                        <td>Rp {{ number_format(1500000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1500000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>NEW OCEAN - Standard</td>
-                                        <td>Rp {{ number_format(1500000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1500000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>NEW OCEAN - Suite</td>
-                                        <td>Rp {{ number_format(1600000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1600000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>THE KELAPA - Standard</td>
-                                        <td>Rp {{ number_format(1500000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1500000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>THE KELAPA - Suite</td>
-                                        <td>Rp {{ number_format(2000000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(2000000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>MANGROVE INN</td>
-                                        <td>Rp {{ number_format(1500000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1500000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>ESCAPE - Standard</td>
-                                        <td>Rp {{ number_format(1500000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1500000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>ESCAPE - Deluxe</td>
-                                        <td>Rp {{ number_format(1600000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1600000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
                                         <td>ESCAPE - Suite</td>
-                                        <td>Rp {{ number_format(1700000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1700000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td rowspan="12">Cottage / Villa</td>
                                         <td>ASRI - Apung (Fan)</td>
-                                        <td>Rp {{ number_format(1400000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1400000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>ASRI - Cottage (AC)</td>
-                                        <td>Rp {{ number_format(1500000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1500000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>LUMBUNG</td>
-                                        <td>Rp {{ number_format(1600000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1600000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>ALCHY - Cendana</td>
-                                        <td>Rp {{ number_format(1750000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1750000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>ALCHY - Waru</td>
-                                        <td>Rp {{ number_format(2000000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(2000000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>SUNRISE - Standard</td>
-                                        <td>Rp {{ number_format(1450000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1450000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>SUNRISE - Suite</td>
-                                        <td>Rp {{ number_format(1600000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1600000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>SUNRISE - Executive</td>
-                                        <td>Rp {{ number_format(1700000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1700000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>SUNRISE - Master</td>
-                                        <td>Rp {{ number_format(1900000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1900000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>WISMA APUNG - Fan</td>
-                                        <td>Rp {{ number_format(1450000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1450000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>WISMA APUNG - AC</td>
-                                        <td>Rp {{ number_format(1600000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1600000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
                                         <td>MIRABELLE JOGLO</td>
-                                        <td>Rp {{ number_format(1600000 + 35000, 0) }}</td>
+                                        <td>Rp {{ number_format(1600000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -177,7 +177,7 @@
                                 <li>Pendaftaran untuk 11 peserta ke atas bisa dilayani private trip</li>
                                 <li>Permintaan private trip untuk reservasi dengan jumlah peserta kurang dari 10 orang akan dikenakan biaya tambahan sebesar Rp {{ number_format(2500000, 0) }} per grup rombongan dan akan mendapatkan full dokumentasi beserta video klip pendek</li>
                                 <li>Anak usia 5 tahun ke atas bayar full</li>
-                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi sebesar Rp 200,000 (Tanpa mendapatkan fasilitas)</li>
+                                <li>Anak usia di bawah 5 tahun dikenakan biaya administrasi sebesar Rp {{ number_format(200000, 0) }} (Tanpa mendapatkan fasilitas)</li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
                             </ul>
                         </div>

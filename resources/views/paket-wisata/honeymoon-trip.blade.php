@@ -1,6 +1,6 @@
 @extends('layouts.web')
 
-@section('css')
+@push('css')
     <style>
         body {
             background: url("{!! asset('img/fishnets-and-hearts.png') !!}") !important;
@@ -29,7 +29,7 @@
             color: antiquewhite !important;
         }
     </style>
-@endsection
+@endpush
 
 @section('content')
     <div class="container py-5 my-5">
@@ -82,45 +82,45 @@
                                 <tbody>
                                 <tr>
                                     <th>d'SEASON Hotel - Bisnis</th>
-                                    <td class="price">Rp {{ number_format(4865000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(5700000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(7270000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(4865000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5700000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7270000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <th>d'SEASON Hotel - Executive</th>
-                                    <td class="price">Rp {{ number_format(4965000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(5900000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(7570000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(4965000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5900000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7570000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <th>Java Paradise Resort - Standard</th>
-                                    <td class="price">Rp {{ number_format(5119000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(5910000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(7526000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5119000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5910000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7526000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <th>Java Paradise Resort - Superior</th>
-                                    <td class="price">Rp {{ number_format(5211000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(6090000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(7796000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5211000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(6090000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7796000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <th>Java Paradise Resort - Deluxe</th>
-                                    <td class="price">Rp {{ number_format(5301000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(6270000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(8066000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5301000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(6270000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(8066000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <th>Java Paradise Resort - Executive</th>
-                                    <td class="price">Rp {{ number_format(5345000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(6360000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(8200000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5345000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(6360000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(8200000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
                                     <th>Java Paradise Resort - Suite</th>
-                                    <td class="price">Rp {{ number_format(7685000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(11140000, 0) }}</td>
-                                    <td class="price">Rp {{ number_format(15220000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7685000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(11140000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(15220000 + 100000, 0) }}</td>
                                 </tr>
                                 </tbody>
                             </table>
