@@ -87,6 +87,13 @@
                                         <td>Rp {{ number_format(2050000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
+                                        <td>Happinezz Hills <sup class="badge badge-success">Baru</sup></td>
+                                        <td>Rp {{ number_format(1200000 + 35000 + 100000, 0) }}</td>
+                                        <td>Rp {{ number_format(1250000 + 100000, 0) }}</td>
+                                        <td>Rp {{ number_format(1750000 + 35000 + 100000, 0) }}</td>
+                                        <td>Rp {{ number_format(2050000 + 35000 + 100000, 0) }}</td>
+                                    </tr>
+                                    <tr class="bg-primary text-white">
                                         <td>Java Paradise Resort - Standard</td>
                                         <td>Rp {{ number_format(1300000 - 55000 + 100000, 0) }}</td>
                                         <td>Rp {{ number_format(1350000 - 90000 + 100000, 0) }}</td>

@@ -62,7 +62,7 @@
                                     <td>Rp {{ number_format(1360000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
-                                    <td rowspan="7">Hotel Bintang 3</td>
+                                    <td rowspan="8">Hotel Bintang 3</td>
                                     <td>d'SEASON - Superior</td>
                                     <td>Rp {{ number_format(1260000 + 100000, 0) }}</td>
                                     <td>Rp {{ number_format(1710000 + 100000, 0) }}</td>
@@ -76,6 +76,12 @@
                                 </tr>
                                 <tr class="bg-primary text-white">
                                     <td>d'SEASON - Executive</td>
+                                    <td>Rp {{ number_format(1360000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1910000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(2210000 + 100000, 0) }}</td>
+                                </tr>
+                                <tr class="bg-primary text-white">
+                                    <td>Happinezz Hills <sup class="badge badge-success">Baru</sup></td>
                                     <td>Rp {{ number_format(1360000 + 100000, 0) }}</td>
                                     <td>Rp {{ number_format(1910000 + 100000, 0) }}</td>
                                     <td>Rp {{ number_format(2210000 + 100000, 0) }}</td>

@@ -28,6 +28,9 @@
             background: hotpink !important;
             color: antiquewhite !important;
         }
+        .table-hover tbody tr:hover {
+            color: whitesmoke;
+        }
     </style>
 @endpush
 
@@ -88,6 +91,12 @@
                                 </tr>
                                 <tr>
                                     <th>d'SEASON Hotel - Executive</th>
+                                    <td class="price">Rp {{ number_format(4965000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(5900000 + 100000, 0) }}</td>
+                                    <td class="price">Rp {{ number_format(7570000 + 100000, 0) }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Happinezz Hills <sup class="badge badge-success">Baru</sup></th>
                                     <td class="price">Rp {{ number_format(4965000 + 100000, 0) }}</td>
                                     <td class="price">Rp {{ number_format(5900000 + 100000, 0) }}</td>
                                     <td class="price">Rp {{ number_format(7570000 + 100000, 0) }}</td>
@@ -158,9 +167,9 @@
                                     <li>Air mineral</li>
                                     <li>Asuransi Penyeberangan</li>
                                     <li>Perlengkapan P3K</li>
-                                    <li>Video klip durasi 1 menit <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
-                                    <li>Dekorasi kamar <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
-                                    <li>Romantic dinner <span><sup class="badge-light">&nbsp;Baru&nbsp;</sup></span></li>
+                                    <li>Video klip durasi 1 menit <sup class="badge badge-success">Baru</sup></li>
+                                    <li>Dekorasi kamar <sup class="badge badge-success">Baru</sup></li>
+                                    <li>Romantic dinner <sup class="badge badge-success">Baru</sup></li>
                                 </ol>
                             </div>
                             <div class="col-12 col-md">
@@ -196,8 +205,8 @@
                         <div class="tab-content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-2h1m-tab">
                                 <div class="table-responsive">
-                                    <table class="table table-bordered">
-                                        <caption>Itinerary Honeymoon Trip 2H1M</caption>
+                                    <table class="table table-borderless" style="color: hotpink">
+                                        <caption class="sr-only">Itinerary Honeymoon Trip 2H1M Harmoni Karimunjawa</caption>
                                         <thead class="font-weight-bold text-center text-uppercase" style="background-color: hotpink; color: antiquewhite;">
                                         <tr>
                                             <th>Hari</th>
