@@ -45,35 +45,6 @@
         </a>
     </div>
 
-    <div class="container py-5">
-        <div class="card shadow-sm">
-            <div class="card-body">
-                <div class="card-text">
-                    <div class="text-center">
-                        <div class="title m-b-md text-danger">
-                            Karimunjawa Masih Ditutup
-                        </div>
-                        Dalam keadaan pandemi Covid-19, saat ini seluruh kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> juga dihentikan sampai batas waktu yang belum dapat ditentukan. Terkait harga paket yang saat ini tertera merupakan harga yang berlaku saat sebelum pandemi ditetapkan.
-                        Ketika nanti kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> diizinkan untuk dibuka kembali, besar kemungkinan harga paket wisata kami mengalami perubahan guna menyesuaikan kondisi yang akan diterapkan di lapangan.
-                        <br>
-                        Demikian informasi yang dapat kami sampaikan. Terima kasih dan harap maklum.
-                        <br><br>
-                        Selamat Datang di Karimunjawa!
-                        <br>
-                        <b>Taman Nasional Kepulauan Karimunjawa</b> berada di titik koordinat 5°49′LU 110°24′BT﻿ / ﻿5,817°LS 110,4°BT.
-                        <br>
-                        Pulau dengan luas keseluruhan lebih dari 100.000 Hektar dan di huni hampir 10.000 jiwa ini berada dibawah administrasi Kabupaten Jepara - Jawa Tengah.
-                        <b>Kepulauan Karimunjawa</b> dikelilingi 27 gugusan pulau-pulau kecil dengan beberapa diantaranya menjadi spot pupuler untuk di kunjungi Turis dari berbagai Negara.
-                        Keindahan alam <b>Kepulauan Karimunjawa</b> sudah di kenal dunia sejak era tahun 80an. Akses untuk menuju <b>Kepulauan Karimunjawa</b> bisa dilakukan dari Jepara dengan penyeberangan kapal yang hampir ada setiap hari atau Semarang pada waktu - waktu tertentu, tetapi perlu diketahui untuk berkunjung ke pulau ini tidak mudah dilakukan ketika akhir pekan dan musim libur sekolah atau nasional mengingat animo wisatawan yang berminat datang ke <b>Kepulauan Karimunjawa</b> saat ini begitu besar.
-                        Dari pertimbangan inilah <span> <img src="{{ asset('img/logo.png') }}" id="Logo Harmoni Karimunjawa" alt="Logo Harmoni Karimunjawa"> </span> bertekad menjembatani Anda agar lebih mudah dan menyenangkan ketika mengunjungi <b>Taman Nasional Karimunjawa</b>.
-                        <br>
-                        Segera pilih <a href="#paketWisata" style="font-size: larger; text-decoration: underline"><b>Paket Wisata</b></a> dari kami sesuai dengan yang Anda butuhkan.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="full-height"></div>
 
     <div class="bg-light" id="paketWisata">

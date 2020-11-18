@@ -3,23 +3,6 @@
 @section('content')
     <div class="container py-5 my-5">
         <div class="row justify-content-center">
-            <div class="col-md-12 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-text">
-                            <div class="text-center">
-                                <div class="title m-b-md text-danger">
-                                    Karimunjawa Masih Ditutup
-                                </div>
-                                Dalam keadaan pandemi Covid-19, saat ini seluruh kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> juga dihentikan sampai batas waktu yang belum dapat ditentukan. Terkait harga paket yang saat ini tertera merupakan harga yang berlaku saat sebelum pandemi ditetapkan.
-                                Ketika nanti kegiatan wisata di <b>Taman Nasional Kepulauan Karimunjawa</b> diizinkan untuk dibuka kembali, besar kemungkinan harga paket wisata kami mengalami perubahan guna menyesuaikan kondisi yang akan diterapkan di lapangan.
-                                <br>
-                                Demikian informasi yang dapat kami sampaikan. Terima kasih dan harap maklum.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
