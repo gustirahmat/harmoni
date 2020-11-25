@@ -11,6 +11,14 @@
                     <source src="{{ asset('video/Family-Trip-Harmoni-Karimunjawa.mp4') }}" type="video/mp4">
                 </video>
             </div>
+            <div class="col-md-12 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="lead">Family trip adalah jenis paket wisata yg pesertanya terdiri dari satu keluarga baik kecil atau besar dan kegiatan trip dijalankan secara privat yg mana waktu kegiatan dan destinasi lebih fkeksibel.</p>
+                        <p>Umumnya peserta Family trip berjumlah antara 4 hingga 8 peserta dan bahkan bisa lebih banyak lagi. Bersama Harmoni Karimunjawa Tour & Travel, kegiatan Family trip Anda akan mendapat jaminan kepuasan karena para pemandu kami sangat berdedikasi dalam melayani tamu² wisata. Dan tidak lupa juga, family trip yg kami sediakan untuk Anda sudah termasuk dokumentasi dengan peralatan masa kini dan akan terkemas dalam video klip cinematic sehingga kegiatan wisata Anda akan menjadi kenangan sepanjang masa.</p>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
@@ -60,7 +68,7 @@
                                     <td>Rp {{ number_format(11800000, 0) }}</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="2" class="align-middle">Hotel Standard / Melati</td>
+                                    <td rowspan="2" class="align-middle">Hotel StAndard / Melati</td>
                                     <td>PURI Karimun</td>
                                     <td>Rp {{ number_format(6300000, 0) }}</td>
                                     <td>Rp {{ number_format(7600000, 0) }}</td>
@@ -111,7 +119,7 @@
                                     <li>Guide Lokal</li>
                                     <li>Alat snorkeling + life jacket</li>
                                     <li>Full dokumentasi (DSLR + DRONE + UNDERWATER)</li>
-                                    <li>Biaya sandar perahu</li>
+                                    <li>Biaya sAndar perahu</li>
                                     <li>Air mineral</li>
                                     <li>Asuransi Penyeberangan</li>
                                     <li>Perlengkapan P3K</li>
