@@ -16,7 +16,7 @@
                                     <tr>
                                         <th>Jenis Penginapan</th>
                                         <th>Nama Penginapan</th>
-                                        <th>Harga (/pax)</th>
+                                        <th>Harga per Pax</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -67,7 +67,7 @@
                                         <td>Rp {{ number_format(2050000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="9">Hotel Standard / Melati</td>
+                                        <td rowspan="4">Hotel Standard / Melati</td>
                                         <td>PURI Karimun</td>
                                         <td>Rp {{ number_format(1300000 + 35000 + 100000, 0) }}</td>
                                     </tr>
@@ -80,31 +80,11 @@
                                         <td>Rp {{ number_format(1350000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr>
-                                        <td>THE KELAPA - Standard</td>
-                                        <td>Rp {{ number_format(1300000 + 35000 + 100000, 0) }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>THE KELAPA - Suite</td>
-                                        <td>Rp {{ number_format(1600000 + 35000 + 100000, 0) }}</td>
-                                    </tr>
-                                    <tr>
                                         <td>MANGROVE INN</td>
                                         <td>Rp {{ number_format(1300000 + 35000 + 100000, 0) }}</td>
                                     </tr>
-                                    <tr>
-                                        <td>ESCAPE - Standard</td>
-                                        <td>Rp {{ number_format(1250000 + 35000 + 100000, 0) }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>ESCAPE - Deluxe</td>
-                                        <td>Rp {{ number_format(1300000 + 35000 + 100000, 0) }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>ESCAPE - Suite</td>
-                                        <td>Rp {{ number_format(1350000 + 35000 + 100000, 0) }}</td>
-                                    </tr>
                                     <tr class="bg-primary text-white">
-                                        <td rowspan="12">Cottage / Villa</td>
+                                        <td rowspan="10">Cottage / Villa</td>
                                         <td>ASRI - Apung (Fan)</td>
                                         <td>Rp {{ number_format(1200000 + 35000 + 100000, 0) }}</td>
                                     </tr>
@@ -141,16 +121,8 @@
                                         <td>Rp {{ number_format(1550000 + 35000 + 100000, 0) }}</td>
                                     </tr>
                                     <tr class="bg-primary text-white">
-                                        <td>WISMA APUNG - Fan</td>
-                                        <td>Rp {{ number_format(1250000 + 35000 + 100000, 0) }}</td>
-                                    </tr>
-                                    <tr class="bg-primary text-white">
-                                        <td>WISMA APUNG - AC</td>
-                                        <td>Rp {{ number_format(1400000 + 35000 + 100000, 0) }}</td>
-                                    </tr>
-                                    <tr class="bg-primary text-white">
                                         <td>MIRABELLE JOGLO</td>
-                                        <td>Rp {{ number_format(1350000 + 35000 + 100000, 0) }}</td>
+                                        <td>Rp {{ number_format(1350000 + 35000 + 100000 + 150000, 0) }}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -184,7 +156,7 @@
                                     <li>Transport check-in & check-out</li>
                                     <li>Penginapan (isi 2 - 3 orang)</li>
                                     <li>Makan 6x (termasuk BBQ 1x)</li>
-                                    <li>Tranport wisata</li>
+                                    <li>Transport wisata</li>
                                     <li>Guide Lokal</li>
                                     <li>Alat snorkeling + life jacket</li>
                                     <li>Dokumentasi Wisata Laut dan Wisata Darat</li>

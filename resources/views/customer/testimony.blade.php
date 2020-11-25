@@ -11,7 +11,7 @@
                         </div>
                         <p class="lead font-weight-bold text-center">Ini kata mereka tentang <span class="sr-only">Harmoni Karimunjawa</span><span> <img src="{{ asset('img/logo.png') }}" id="Logo Harmoni Karimunjawa" alt="Logo Harmoni Karimunjawa"> </span> </p>
                         @inject('testimony','harmoniKarimunJawa\Testimony')
-                        @foreach($testimony->all() as $item)
+                        @forelse($testimony->all() as $item)
                             <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3" style="border-left: thick solid dodgerblue">
                                 <div class="my-3 py-3">
                                     <blockquote class="blockquote">
@@ -20,7 +20,9 @@
                                     </blockquote>
                                 </div>
                             </div>
-                        @endforeach
+                        @empty
+                            <p class="text-center">Segera hadir.</p>
+                        @endforelse
                     </div>
                 </div>
             </div>

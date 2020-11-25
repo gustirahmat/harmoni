@@ -16,7 +16,7 @@
                                 <tr>
                                     <th rowspan="2" class="align-middle">Jenis Penginapan</th>
                                     <th rowspan="2" class="align-middle">Nama Penginapan</th>
-                                    <th colspan="3">Harga (/pax)</th>
+                                    <th colspan="3">Harga per Pax</th>
                                 </tr>
                                 <tr>
                                     <th>2H1M</th>
@@ -94,7 +94,7 @@
                                     <td>Rp {{ number_format(2760000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="9">Hotel Standard / Melati</td>
+                                    <td rowspan="4">Hotel Standard / Melati</td>
                                     <td>PURI Karimun</td>
                                     <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
                                     <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
@@ -113,43 +113,13 @@
                                     <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr>
-                                    <td>THE KELAPA - Standard</td>
-                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1660000 + 100000, 0) }}</td>
-                                </tr>
-                                <tr>
-                                    <td>THE KELAPA - Suite</td>
-                                    <td>Rp {{ number_format(1260000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(2160000 + 100000, 0) }}</td>
-                                </tr>
-                                <tr>
                                     <td>MANGROVE INN</td>
                                     <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
                                     <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
                                     <td>Rp {{ number_format(1660000 + 100000, 0) }}</td>
                                 </tr>
-                                <tr>
-                                    <td>ESCAPE - Standard</td>
-                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1410000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1660000 + 100000, 0) }}</td>
-                                </tr>
-                                <tr>
-                                    <td>ESCAPE - Deluxe</td>
-                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1460000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
-                                </tr>
-                                <tr>
-                                    <td>ESCAPE - Suite</td>
-                                    <td>Rp {{ number_format(1210000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1510000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1860000 + 100000, 0) }}</td>
-                                </tr>
                                 <tr class="bg-primary text-white">
-                                    <td rowspan="12">Cottage / Villa</td>
+                                    <td rowspan="10">Cottage / Villa</td>
                                     <td>ASRI - Apung (Fan)</td>
                                     <td>Rp {{ number_format(1010000 + 100000, 0) }}</td>
                                     <td>Rp {{ number_format(1360000 + 100000, 0) }}</td>
@@ -204,22 +174,10 @@
                                     <td>Rp {{ number_format(2060000 + 100000, 0) }}</td>
                                 </tr>
                                 <tr class="bg-primary text-white">
-                                    <td>WISMA APUNG - Fan</td>
-                                    <td>Rp {{ number_format(1110000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1410000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1610000 + 100000, 0) }}</td>
-                                </tr>
-                                <tr class="bg-primary text-white">
-                                    <td>WISMA APUNG - AC</td>
-                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1560000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
-                                </tr>
-                                <tr class="bg-primary text-white">
                                     <td>MIRABELLE JOGLO</td>
-                                    <td>Rp {{ number_format(1160000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1510000 + 100000, 0) }}</td>
-                                    <td>Rp {{ number_format(1760000 + 100000, 0) }}</td>
+                                    <td>Rp {{ number_format(1160000 + 100000 + 75000, 0) }}</td>
+                                    <td>Rp {{ number_format(1510000 + 100000 + 150000, 0) }}</td>
+                                    <td>Rp {{ number_format(1760000 + 100000 + 225000, 0) }}</td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -252,7 +210,7 @@
                                     <li>Transport check-in & check-out</li>
                                     <li>Penginapan (isi 2 - 3 orang)</li>
                                     <li>Makan 3x / 6x / 8x</li>
-                                    <li>Tranport wisata</li>
+                                    <li>Transport wisata</li>
                                     <li>Guide Lokal</li>
                                     <li>Alat snorkeling + life jacket</li>
                                     <li>Dokumentasi Wisata Laut dan Wisata Darat</li>

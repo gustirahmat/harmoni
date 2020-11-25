@@ -52,10 +52,11 @@ Route::namespace('Customer')->group(function () {
 		Route::get('karimunjawa-3-hari-2-malam-ferry', 'TourPackageController@Karjaw3H2MFJ')->name('3h2m-ferry');
 		Route::get('karimunjawa-4-hari-3-malam-express-bahari-jepara', 'TourPackageController@Karjaw4H3MEBJ')->name('4h3m-ebj');
 		Route::get('karimunjawa-4-hari-3-malam-ferry', 'TourPackageController@Karjaw4H3MFJ')->name('4h3m-ferry');
-		Route::get('open-trip-harmoni-karimunjawa', 'TourPackageController@KarjawOT')->name('open-trip');
-		Route::get('honeymoon-trip-harmoni-karimunjawa', 'TourPackageController@KarjawHoneymoon')->name('honeymoon-trip');
-		Route::get('trip-karimunjawa-dengan-pesawat', 'TourPackageController@KarjawbyPlane')->name('by-plane-trip');
-	});
+        Route::get('open-trip-harmoni-karimunjawa', 'TourPackageController@KarjawOT')->name('open-trip');
+        Route::get('honeymoon-trip-harmoni-karimunjawa', 'TourPackageController@KarjawHoneymoon')->name('honeymoon-trip');
+        Route::get('trip-karimunjawa-dengan-pesawat', 'TourPackageController@KarjawbyPlane')->name('by-plane-trip');
+        Route::get('family-trip-harmoni-karimunjawa', 'TourPackageController@KarjawFT')->name('family-trip');
+    });
 });
 
 Route::get('/sitemap.xml', 'SitemapController@index');

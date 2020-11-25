@@ -14,13 +14,13 @@ class CreateTestimoniesTable extends Migration
     {
         Schema::create('testimonies', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
-            $table->softDeletes();
             $table->string('nama_tamu')->nullable();
             $table->text('testimoni')->nullable();
             $table->date('tanggal_trip')->nullable();
             $table->string('domisili_tamu')->nullable();
-            });
+            $table->timestampsTz();
+            $table->softDeletesTz();
+        });
     }
 
     /**

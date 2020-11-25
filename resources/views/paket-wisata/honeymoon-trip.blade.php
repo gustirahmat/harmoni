@@ -38,9 +38,9 @@
     <div class="container py-5 my-5">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <div class="title m-b-md text-center" style="color: hotpink">
+                <h1 class="title m-b-md text-center" style="color: hotpink">
                     Honeymoon Trip Harmoni Karimunjawa
-                </div>
+                </h1>
                 <video playsinline loop muted autoplay poster="{{ asset('img/LogoLicious_20180609_205814.png') }}" width="100%">
                     <source src="{{ asset('video/Honeymoon Wahyu Vivi Harmoni Karimunjawa.mp4') }}" type="video/mp4">
                 </video>
@@ -48,9 +48,9 @@
             <div class="col-md-12">
                 <div class="card" style="background-color: antiquewhite; color: hotpink;">
                     <div class="card-body">
-                        <div class="title m-b-md text-center">
+                        <h2 class="title m-b-md text-center">
                             Harga Paket Honeymoon Trip
-                        </div>
+                        </h2>
                         <p class="lead font-weight-bold text-center">Start Jepara</p>
                         <div class="table-responsive">
                             <table class="table table-bordered table-hover text-center" style="background-color: hotpink; color: antiquewhite;">
@@ -122,7 +122,7 @@
                             <ul>
                                 <li>Jika sewaktu penyeberangan hanya menyediakan kapal Ferry Siginjai maka akan kami usahakan untuk tiket kelas VIP</li>
                                 <li>Harga yang tertera untuk 2 orang (1 couple)</li>
-                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp {{ number_format(150000, 0) }}</li>
+                                <li>Peserta <u>Warga Negara Asing (WNA)</u> dikenakan biaya tambahan sebesar Rp {{ number_format(150000, 0) }} per orang</li>
                                 <li>Harga dapat berubah saat musim liburan / peak season</li>
                                 <li>Meeting Point di Pelabuhan Kartini, Jepara</li>
                             </ul>
@@ -139,10 +139,10 @@
                             <div class="col-12 col-md">
                                 <h4>Include:</h4>
                                 <ol>
-                                    <li>Tiket Kapal Express Bahari Jepara - Executive</li>
+                                    <li>Tiket Kapal Express Bahari Jepara PP (Executive Class)</li>
                                     <li>Transport check-in & check-out</li>
                                     <li>Makan 3x / 6x / 8x</li>
-                                    <li>Tranport wisata</li>
+                                    <li>Transport wisata</li>
                                     <li>Guide Lokal</li>
                                     <li>Alat snorkeling + life jacket</li>
                                     <li>Full dokumentasi (DSLR + DRONE + UNDERWATER)</li>
@@ -165,7 +165,7 @@
                             <div class="col-12 col-md">
                                 <h4>Upgrade Tiket / Kapal:</h4>
                                 <ol>
-                                    <li>Express Bahari Jepara - VIP (Rp {{ number_format(110000, 0) }} / one way)</li>
+                                    <li>Express Bahari Jepara - VIP (Rp {{ number_format(35000, 0) }} / one way / orang)</li>
                                 </ol>
                             </div>
                         </div>
@@ -229,9 +229,9 @@
                                         <tr>
                                             <td>Menuju Pelabuhan Wisata</td>
                                         </tr>
-                                        <tr>
+                                        <tr style="background-color: hotpink; color: antiquewhite;">
                                             <td rowspan="4">13:30 - 18:00</td>
-                                            <td style="background-color: hotpink; color: antiquewhite; font-style: italic;">
+                                            <td class="font-italic">
                                                 Wisata laut menggunakan perahu menuju
                                                 <div class="bounce float-right">
                                                     <b style="font-size: larger">&downarrow;&downarrow;</b>
@@ -268,8 +268,8 @@
                                         <tr>
                                             <td>Check-out penginapan</td>
                                         </tr>
-                                        <tr>
-                                            <td style="background-color: hotpink; color: antiquewhite; font-style: italic;">
+                                        <tr style="background-color: hotpink; color: antiquewhite;">
+                                            <td class="font-italic">
                                                 Wisata Darat menggunakan mobil/motor menuju
                                                 <div class="bounce float-right">
                                                     <b style="font-size: larger">&downarrow;&downarrow;</b>
@@ -301,8 +301,8 @@
                             </div>
                             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-3h2m-tab">
                                 <div class="table-responsive">
-                                    <table class="table table-bordered">
-                                        <caption>Itinerary Honeymoon Trip 3H2M</caption>
+                                    <table class="table table-borderless" style="color: hotpink">
+                                        <caption class="sr-only">Itinerary Honeymoon Trip 3H2M</caption>
                                         <thead class="font-weight-bold text-center text-uppercase" style="background-color: hotpink; color: antiquewhite;">
                                         <tr>
                                             <th>Hari</th>
@@ -339,9 +339,9 @@
                                         <tr>
                                             <td>Istirahat dan persiapan Wisata Darat</td>
                                         </tr>
-                                        <tr>
+                                        <tr style="background-color: hotpink; color: antiquewhite;">
                                             <td rowspan="5">13:30 - 18:00</td>
-                                            <td style="background-color: hotpink; color: antiquewhite; font-style: italic;">
+                                            <td class="font-italic">
                                                 Wisata Darat menggunakan mobil/motor menuju
                                                 <div class="bounce float-right">
                                                     <b style="font-size: larger">&downarrow;&downarrow;</b>
@@ -381,9 +381,9 @@
                                         <tr>
                                             <td>Menuju Pelabuhan Wisata</td>
                                         </tr>
-                                        <tr>
+                                        <tr style="background-color: hotpink; color: antiquewhite;">
                                             <td rowspan="6">08:30 - 18:00</td>
-                                            <td style="background-color: hotpink; color: antiquewhite; font-style: italic;">
+                                            <td class="font-italic">
                                                 Wisata laut menggunakan perahu menuju
                                                 <div class="bounce float-right">
                                                     <b style="font-size: larger">&downarrow;&downarrow;</b>
@@ -449,8 +449,8 @@
                             </div>
                             <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-4h3m-tab">
                                 <div class="table-responsive">
-                                    <table class="table table-bordered">
-                                        <caption>Itinerary Honeymoon Trip 4H3M</caption>
+                                    <table class="table table-borderless" style="color: hotpink">
+                                        <caption class="sr-only">Itinerary Honeymoon Trip 4H3M</caption>
                                         <thead class="font-weight-bold text-center text-uppercase" style="background-color: hotpink; color: antiquewhite;">
                                         <tr>
                                             <th>Hari</th>
@@ -508,9 +508,9 @@
                                         <tr>
                                             <td>Menuju Pelabuhan Wisata</td>
                                         </tr>
-                                        <tr>
+                                        <tr style="background-color: hotpink; color: antiquewhite;">
                                             <td rowspan="6">08:30 - 18:00</td>
-                                            <td style="background-color: hotpink; color: antiquewhite; font-style: italic;">
+                                            <td class="font-italic">
                                                 Wisata laut menggunakan perahu menuju
                                                 <div class="bounce float-right">
                                                     <b style="font-size: larger">&downarrow;&downarrow;</b>
@@ -553,9 +553,9 @@
                                         <tr>
                                             <td>Menuju Pelabuhan Wisata</td>
                                         </tr>
-                                        <tr>
+                                        <tr style="background-color: hotpink; color: antiquewhite;">
                                             <td rowspan="6">08:30 - 18:00</td>
-                                            <td style="background-color: hotpink; color: antiquewhite; font-style: italic;">
+                                            <td class="font-italic">
                                                 Wisata laut menggunakan perahu menuju
                                                 <div class="bounce float-right">
                                                     <b style="font-size: larger">&downarrow;&downarrow;</b>

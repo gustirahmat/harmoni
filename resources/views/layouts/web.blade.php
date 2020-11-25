@@ -226,7 +226,7 @@
                             Paket Wisata
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarPaketWisata">
-                            <a class="dropdown-item" href="{{ route('by-plane-trip') }}">Karimunjawa via Bandara Semarang <sup class="badge badge-success">Terbaru</sup></a>
+                            <a class="dropdown-item" href="{{ route('by-plane-trip') }}">Karimunjawa via Bandara Semarang</a>
                             <a class="dropdown-item" href="{{ route('2h1m-ebj') }}">Karimunjawa 2H1M via Express Jepara</a>
                             <a class="dropdown-item" href="{{ route('2h1m-ferry') }}">Karimunjawa 2H1M via Ferry Jepara <sup class="badge badge-danger">Termurah</sup></a>
                             <a class="dropdown-item" href="{{ route('2h2m-pelni') }}">Karimunjawa 2H2M via Pelni Semarang</a>
@@ -241,13 +241,10 @@
                         <a class="nav-link" href="{{ route('honeymoon-trip') }}">Honeymoon Trip</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('family-trip') }}">Family Trip <sup class="badge badge-success">Terbaru</sup></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('open-trip') }}">Open Trip</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('boat-schedule') }}">Jadwal Kapal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('gallery') }}">Galeri</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('tnc') }}">Syarat & Ketentuan</a>
@@ -294,6 +291,7 @@
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="{{ route('about') }}">Tentang Kami</a></li>
                         <li><a class="text-muted" target="_blank" href="https://goo.gl/maps/roCJauzbVSN2">Lokasi Kantor</a></li>
+                        <li><a class="text-muted" href="{{ route('boat-schedule') }}">Jadwal Kapal</a></li>
                         <li><a class="text-muted" href="{{ route('gallery') }}">Dokumentasi Trip</a></li>
                         <li><a class="text-muted" href="{{ route('testimony') }}">Testimoni Peserta</a></li>
                         <li><a class="text-muted" href="{{ route('tnc') }}">Syarat & Ketentuan</a></li>
